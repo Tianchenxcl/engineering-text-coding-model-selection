@@ -1,0 +1,12 @@
+﻿label_id,label_name,function,description
+0,Interpretations,Coordination,Provisions that clarify the meanings of terms to support a shared understanding between the parties.
+1,Task descriptions,Coordination,Provisions that describe each party's tasks for completing the work.
+2,Communication,Coordination,Provisions concerning information exchange and sharing between the parties.
+3,Positional power,Coordination,Provisions that authorize positional power for a party during the work process.
+4,Rights entitlement,Control,Provisions that endow each party with rights for protecting its assets or interests.
+5,Obligations,Control,"Provisions that oblige each party to perform responsibilities and comply with allocated risks, rules, and laws."
+6,Penalties,Control,"Provisions concerning compensation, damages, or additional rights arising from another party's failure to perform."
+7,Behavior restrictions,Control,Provisions that constrain a party from performing specified actions.
+8,Adjudication,Control,Provisions concerning the arbitration or adjudication of disputes between the parties.
+9,Environmental changes,Adaptation,Provisions concerning responses to future natural or institutional changes.
+10,Task changes,Adaptation,"Provisions concerning future changes to work scope, standards, or sequence."

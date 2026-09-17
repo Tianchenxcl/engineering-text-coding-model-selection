@@ -1,0 +1,10 @@
+﻿outcome,contrast,algorithm_a,algorithm_b,interpretation,outer_fold_count,mean_fold_rmse_difference,minimum_fold_difference,maximum_fold_difference,wilcoxon_statistic,p_value,p_value_holm_within_outcome
+kappa,ridge_minus_mean,ridge,candidate_mean,Negative values favor algorithm_a,10,-0.06753131814973774,-0.08252486365890484,-0.056583288043148106,0.0,0.001953125,0.005859375
+kappa,gbt_minus_ridge,gradient_boosting,ridge,Negative values favor algorithm_a,10,-0.015942293653731277,-0.03165218382327423,0.0014553207912163524,1.0,0.00390625,0.0078125
+kappa,mlp_minus_ridge,mlp,ridge,Negative values favor algorithm_a,10,0.012003039629498708,-0.00969192150887313,0.03922292541193685,6.0,0.02734375,0.02734375
+macro_f1,ridge_minus_mean,ridge,candidate_mean,Negative values favor algorithm_a,10,-0.08134832522211546,-0.108862479505845,-0.048693382728689935,0.0,0.001953125,0.005859375
+macro_f1,gbt_minus_ridge,gradient_boosting,ridge,Negative values favor algorithm_a,10,-0.014841574158201736,-0.029103620131535182,-0.003079083840395916,0.0,0.001953125,0.005859375
+macro_f1,mlp_minus_ridge,mlp,ridge,Negative values favor algorithm_a,10,0.012020348541468327,-0.008841930711750004,0.05128985984605812,8.0,0.048828125,0.048828125
+mcc,ridge_minus_mean,ridge,candidate_mean,Negative values favor algorithm_a,10,-0.0634850216059852,-0.0774015968851036,-0.04252850114180233,0.0,0.001953125,0.005859375
+mcc,gbt_minus_ridge,gradient_boosting,ridge,Negative values favor algorithm_a,10,-0.015207216827253497,-0.03389565437728176,-0.004433174621647024,0.0,0.001953125,0.005859375
+mcc,mlp_minus_ridge,mlp,ridge,Negative values favor algorithm_a,10,0.013314494374439878,0.0002282777692419885,0.04334741021855695,0.0,0.001953125,0.005859375

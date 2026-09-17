@@ -1,0 +1,142 @@
+{
+  "generated_at_utc": "2026-07-15T12:05:22+00:00",
+  "input_dir": "[workspace]\\7.13 code\\statistical_analysis\\step1_data_quality",
+  "output_dir": "[workspace]\\7.13 code\\statistical_analysis\\step4_llm_prompt_analysis",
+  "primary_outcome": "kappa",
+  "robustness_outcomes": [
+    "macro_f1",
+    "mcc"
+  ],
+  "fixed_effects": "prompt strategy * (categorical label number + standardized annotation disagreement + standardized semantic similarity)",
+  "preferred_random_effects": "label-combination intercept plus nested prompt-by-combination cell intercept",
+  "adjusted_prediction_method": "Marginal standardization over the 40 observed label-combination profiles.",
+  "analysis_rows": 360,
+  "combination_count": 40,
+  "prompt_cell_count": 120,
+  "repeat_count_per_prompt_cell": 3,
+  "interaction_lrt_p_values": {
+    "kappa": 7.122627133168957e-06,
+    "macro_f1": 0.00012548851024594854,
+    "mcc": 9.017922066314282e-07
+  },
+  "adjusted_kappa_means_and_contrasts": {
+    "zero_shot": 0.4128622898156959,
+    "few_shot": 0.4552345778078531,
+    "codebook_guided": 0.5177688111617254,
+    "codebook_minus_zero": 0.10490652134602944,
+    "few_minus_zero": 0.04237228799215713,
+    "codebook_minus_few": 0.0625342333538723
+  },
+  "significant_interaction_count": 11,
+  "significant_interactions": [
+    {
+      "outcome": "kappa",
+      "dimension": "Label number",
+      "description": "Codebook-guided-zero-shot difference: 5 versus 3 labels",
+      "estimate": -0.056409932508841486,
+      "p_value": 0.004206806523744747,
+      "ci95_low": -0.09503775140867315,
+      "ci95_high": -0.017782113609009824
+    },
+    {
+      "outcome": "kappa",
+      "dimension": "Label number",
+      "description": "Codebook-guided-zero-shot difference: 8 versus 3 labels",
+      "estimate": -0.050059063721198886,
+      "p_value": 0.015135431543802765,
+      "ci95_low": -0.09044977090272002,
+      "ci95_high": -0.009668356539677757
+    },
+    {
+      "outcome": "kappa",
+      "dimension": "Annotation disagreement",
+      "description": "Difference in annotation disagreement slope: Codebook-guided minus zero-shot",
+      "estimate": -0.03076453749937228,
+      "p_value": 0.0007804961719154037,
+      "ci95_low": -0.048712215292660115,
+      "ci95_high": -0.012816859706084448
+    },
+    {
+      "outcome": "kappa",
+      "dimension": "Label semantic similarity",
+      "description": "Difference in label semantic similarity slope: Codebook-guided minus zero-shot",
+      "estimate": -0.04953970135710282,
+      "p_value": 4.5736016273489725e-08,
+      "ci95_low": -0.06729963932145962,
+      "ci95_high": -0.03177976339274602
+    },
+    {
+      "outcome": "macro_f1",
+      "dimension": "Annotation disagreement",
+      "description": "Difference in annotation disagreement slope: Codebook-guided minus zero-shot",
+      "estimate": -0.01663359411107224,
+      "p_value": 0.019180921114529143,
+      "ci95_low": -0.0305538764512366,
+      "ci95_high": -0.0027133117709078787
+    },
+    {
+      "outcome": "macro_f1",
+      "dimension": "Label semantic similarity",
+      "description": "Difference in label semantic similarity slope: Codebook-guided minus zero-shot",
+      "estimate": -0.0361545301830739,
+      "p_value": 2.684642142824709e-07,
+      "ci95_low": -0.049929200848273195,
+      "ci95_high": -0.022379859517874606
+    },
+    {
+      "outcome": "mcc",
+      "dimension": "Label number",
+      "description": "Codebook-guided-zero-shot difference: 5 versus 3 labels",
+      "estimate": -0.05645959588996776,
+      "p_value": 0.0030979863344705503,
+      "ci95_low": -0.0938715641926886,
+      "ci95_high": -0.019047627587246922
+    },
+    {
+      "outcome": "mcc",
+      "dimension": "Label number",
+      "description": "Codebook-guided-zero-shot difference: 8 versus 3 labels",
+      "estimate": -0.05292841099274288,
+      "p_value": 0.008005765022628052,
+      "ci95_low": -0.09204777884310145,
+      "ci95_high": -0.013809043142384327
+    },
+    {
+      "outcome": "mcc",
+      "dimension": "Label number",
+      "description": "Few-shot-zero-shot difference: 8 versus 3 labels",
+      "estimate": -0.03939377074812944,
+      "p_value": 0.0484144820949756,
+      "ci95_low": -0.07851313859848799,
+      "ci95_high": -0.00027440289777089233
+    },
+    {
+      "outcome": "mcc",
+      "dimension": "Annotation disagreement",
+      "description": "Difference in annotation disagreement slope: Codebook-guided minus zero-shot",
+      "estimate": -0.03459165522695501,
+      "p_value": 9.606363426889448e-05,
+      "ci95_low": -0.051974411277746636,
+      "ci95_high": -0.017208899176163382
+    },
+    {
+      "outcome": "mcc",
+      "dimension": "Label semantic similarity",
+      "description": "Difference in label semantic similarity slope: Codebook-guided minus zero-shot",
+      "estimate": -0.05128314633504345,
+      "p_value": 5.112401734050839e-09,
+      "ci95_low": -0.06848407186241516,
+      "ci95_high": -0.034082220807671745
+    }
+  ],
+  "figure_status": "rendered",
+  "figure_count": 4,
+  "output_checks": {
+    "all_primary_models_converged": true,
+    "missing_primary_fixed_effect_cells": 0,
+    "fixed_predictions_outside_unit_interval": 0,
+    "all_prompt_gain_hc3_coefficients_finite": true
+  },
+  "support_warning": "The 11-label condition contains one label combination. Its main and prompt-interaction coefficients are exploratory; use the excluding-11 sensitivity results for replicated claims.",
+  "interpretation_boundary": "Prompt-complexity interactions estimate how prompt gains change across the constructed task space. They are associations, not causal effects. Repeat-SD comparisons are based on three calls per prompt cell and should be treated as secondary reliability evidence."
+}

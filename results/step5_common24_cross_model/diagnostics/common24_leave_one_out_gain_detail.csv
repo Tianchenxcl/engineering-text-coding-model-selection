@@ -1,0 +1,829 @@
+﻿outcome,contrast,contrast_display,term,omitted_combination,leave_one_out_estimate
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C004,-0.005689188806767198
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C004,-0.06536580919396125
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C004,-0.01069692767698854
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C004,0.014891754388870075
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C021,-0.002810743398726177
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C021,-0.06359815530620785
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C021,-0.009368840499870263
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C021,0.009730182959632164
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C045,0.012175835500152159
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C045,-0.048462238239418635
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C045,-0.011507746056377065
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C045,0.009238403956106127
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C047,0.012397859533475044
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C047,-0.0482807223194281
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C047,-0.002779436210319155
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C047,0.014300180969919895
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C062,-0.004345724387476758
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C062,-0.06568098138003706
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C062,-0.004470799915803172
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C062,0.009750869174337781
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C077,0.007382156586249846
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C077,-0.052701186257859564
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C077,-0.003245517111846415
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C077,0.01721465914847446
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C083,0.005323147379699098
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C083,-0.05575743755600905
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C083,-0.005746532923870521
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C083,0.01034681316769152
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C131,0.0037934160656231015
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C131,-0.057100474395081084
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C131,-0.006552325762948516
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C131,0.010861965385381192
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C002,-0.0016121950856670566
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C002,-0.05884929411527728
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C002,-0.0042644272283919125
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C002,0.009802606875155571
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C104,0.005811903722466794
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C104,-0.05759711354055286
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C104,-0.006315395287628964
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C104,0.011510544316402093
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C208,0.0021844997960636953
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C208,-0.057624604305494015
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C208,-0.006243683117695667
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C208,0.011522218820493197
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C223,-0.0021470442341206875
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C223,-0.058238904497729414
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C223,-0.005140129641280022
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C223,0.010863772691462624
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C227,-0.0014422049044085263
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C227,-0.058096014504814386
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C227,-0.004020427297329947
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C227,0.013553186345937336
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C342,0.009392635530029942
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C342,-0.05786485086387179
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C342,-0.005805595232762376
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C342,0.011276683435259166
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C387,0.0061999796437694436
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C387,-0.05871610999619584
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C387,-0.004107369919390016
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C387,0.010675642601754107
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C408,0.0036632570594119394
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C408,-0.05782089846991724
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C408,-0.005739205512517747
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C408,0.011591623280581555
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C017,0.0035883314042642013
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C017,-0.050513672142562666
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C017,-0.007823083360388198
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C017,0.009640171450538427
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C028,0.00290483112924505
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C028,-0.06034110065134686
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C028,-0.005394696495339861
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C028,0.011167402468786282
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C038,0.0027922950391130732
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C038,-0.0673039843566221
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C038,-0.005088709292949165
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C038,0.010730639762924349
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C069,0.0027198045776802558
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C069,-0.04756568000167776
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C069,-0.004874928213905483
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C069,0.01057161836679578
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C075,0.00318275781170376
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C075,-0.059855287958143204
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C075,-0.006324077920400507
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C075,0.010972177535529376
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C126,0.0031204643819851
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C126,-0.05800233965704881
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C126,-0.0060739903625352
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C126,0.011322346880780005
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C162,0.0033483011185693736
+kappa,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C162,-0.06142716212938116
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C162,-0.006735824735424506
+kappa,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C162,0.011896056238000293
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C004,-0.009357146426936486
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C004,0.05620814740942333
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C004,-0.02402577173929822
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C004,-0.027127698792627705
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C021,0.002755824596281887
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C021,0.066327525573429
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C021,-0.017682011045078886
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C021,-0.03399612251365821
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C045,0.04903321245387459
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C045,0.11363882110618134
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C045,-0.04223334018291326
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C045,-0.04329394701830763
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C047,0.009744229821870959
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C047,0.07335844294444652
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C047,-0.014603786310930475
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C047,-0.03190597701114503
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C062,-0.00030011196965738524
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C062,0.06285305803991259
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C062,-0.014764390348712358
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C062,-0.03447888309908207
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C077,0.010960349312890891
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C077,0.07545176858795236
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C077,-0.012605305354474024
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C077,-0.025986671818752
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C083,0.007080055433643861
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C083,0.07047913253657304
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C083,-0.015843178729147624
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C083,-0.033810884665225326
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C131,-0.025849857001072278
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C131,0.03912886193008475
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C131,0.008470672340313528
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C131,-0.010622144358704863
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C002,-0.010300152129547423
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C002,0.06553563340896869
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C002,-0.01006151714302795
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C002,-0.03845248368101767
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C104,-0.005093288377572656
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C104,0.06859829178156414
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C104,-0.014824604074490325
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C104,-0.03380836872707002
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C208,-0.004825378457120294
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C208,0.07076405019135497
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C208,-0.018596114805012304
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C208,-0.03126742578192262
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C223,0.0027796245528318407
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C223,0.06897129832298822
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C223,-0.015522421646194549
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C223,-0.03345966078108742
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C227,0.020074252358407284
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C227,0.07030808061942115
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C227,-0.02232391514481554
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C227,-0.040134680326557856
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C342,0.019584758733794633
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C342,0.06900303495728768
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C342,-0.01554282750894163
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C342,-0.03335818830875102
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C387,0.00443975472194268
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C387,0.06963095331755678
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C387,-0.0167922063283625
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C387,-0.032908774918483534
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C408,0.015967678971629665
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C408,0.06808070774634795
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C408,-0.010893115496983925
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C408,-0.02883201652237308
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C017,0.006533409867534993
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C017,0.0816443679275818
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C017,-0.019102674102043575
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C017,-0.0361220531062333
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C028,0.004017096179486585
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C028,0.0474059816516774
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C028,-0.010744571919182254
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C028,-0.03476816390538028
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C038,0.0052596368217753126
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C038,0.055624865551413674
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C038,-0.014686232724184883
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C038,-0.0340760968585367
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C069,0.0054788747196853485
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C069,0.07522817470897755
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C069,-0.015339763115312599
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C069,-0.033646330989249594
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C075,0.006043763489742531
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C075,0.06015423015359413
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C075,-0.01733774582666551
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C075,-0.0348425782088236
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C126,0.005257555308328693
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C126,0.07610622188572669
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C126,-0.014434754798585992
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C126,-0.03228133704124122
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C162,0.004766786137770793
+kappa,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C162,0.08336099114789551
+kappa,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C162,-0.013248173091404872
+kappa,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C162,-0.035270220522586215
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C004,0.0036679576201692782
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C004,-0.12157395660338458
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C004,0.013328844062309669
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C004,0.042019453181497794
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C021,-0.005566567995008066
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C021,-0.1299256808796369
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C021,0.008313170545208625
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C021,0.04372630547329038
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C045,-0.03685737695372243
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C045,-0.16210105934560004
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C045,0.030725594126536186
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C045,0.05253235097441375
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C047,0.0026536297116040936
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C047,-0.12163916526387462
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C047,0.011824350100611308
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C047,0.046206157981064894
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C062,-0.004045612417819364
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C062,-0.12853403941994965
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C062,0.010293590432909179
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C062,0.044229752273419846
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C077,-0.0035781927266410607
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C077,-0.1281529548458119
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C077,0.009359788242627606
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C077,0.04320133096722646
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C083,-0.0017569080539447622
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C083,-0.1262365700925821
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C083,0.010096645805277112
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C083,0.04415769783291684
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C131,0.02964327306669539
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C131,-0.09622933632516584
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C131,-0.01502299810326205
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C131,0.021484109744086054
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C002,0.008687957043880378
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C002,-0.12438492752424596
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C002,0.005797089914636039
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C002,0.04825509055617323
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C104,0.010905192100039452
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C104,-0.12619540532211704
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C104,0.00850920878686136
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C104,0.04531891304347212
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C208,0.007009878253184005
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C208,-0.128388654496849
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C208,0.012352431687316638
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C208,0.04278964460241581
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C223,-0.004926668786952523
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C223,-0.12721020282071765
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C223,0.010382292004914523
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C223,0.04432343347255005
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C227,-0.021516457262815807
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C227,-0.12840409512423556
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C227,0.018303487847485596
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C227,0.05368786667249518
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C342,-0.010192123203764704
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C342,-0.1268678858211595
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C342,0.009737232276179252
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C342,0.04463487174401019
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C387,0.0017602249218267748
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C387,-0.12834706331375262
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C387,0.012684836408972494
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C387,0.04358441752023764
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C408,-0.012304421912217712
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C408,-0.12590160621626523
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C408,0.005153909984466177
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C408,0.04042363980295462
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C017,-0.002945078463270799
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C017,-0.13215804007014442
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C017,0.01127959074165537
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C017,0.04576222455677172
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C028,-0.0011122650502415395
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C028,-0.10774708230302427
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C028,0.005349875423842404
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C028,0.04593556637416654
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C038,-0.0024673417826622415
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C038,-0.12292884990803579
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C038,0.00959752343123572
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C038,0.04480673662146104
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C069,-0.0027590701420051006
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C069,-0.12279385471065532
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C069,0.010464834901407122
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C069,0.04421794935604537
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C075,-0.0028610056780387764
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C075,-0.12000951811173736
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C075,0.011013667906264991
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C075,0.04581475574435297
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C126,-0.0021370909263435877
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C126,-0.1341085615427755
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C126,0.008360764436050798
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C126,0.043603683922021214
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C162,-0.0014184850192014075
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C162,-0.14478815327727668
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C162,0.006512348355980375
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C162,0.047166276760586524
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C004,-0.0014362847021771455
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C004,-0.09412823925698689
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C004,-0.003956981670894669
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C004,0.010757550345727233
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C021,0.0001824301639753951
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C021,-0.09318303001424529
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C021,-0.003223877249422265
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C021,0.007584295332813238
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C045,0.009351897918896455
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C045,-0.08392619423102976
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C045,-0.004407103447321193
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C045,0.0073377825106015915
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C047,0.01022355672834485
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C047,-0.08306423941529566
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C047,0.0010875702128718702
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C047,0.010609116227860663
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C062,-0.0014758053825451752
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C062,-0.09523025681566433
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C062,5.168271002072402e-06
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C062,0.007448525406394371
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C077,0.007027842625116462
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C077,-0.08581679624117808
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C077,0.0009085635022890227
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C077,0.012880563848840662
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C083,0.005475378212956394
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C083,-0.08809139191728173
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C083,-0.0009213475722795374
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C083,0.007895957721590905
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C131,0.0037268680916362484
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C131,-0.08967747915539535
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C131,-0.0009718328930086396
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C131,0.008737619794600804
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C002,-0.002616103655884201
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C002,-0.09101381139555884
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C002,0.001312646065324293
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C002,0.006460679531063022
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C104,0.007852707671216905
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C104,-0.08926982181152636
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C104,-0.0015463835402158184
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C104,0.008834788040563637
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C208,0.003204246380573131
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C208,-0.0894019283064963
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C208,-0.0012858592124401964
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C208,0.008735943414850874
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C223,0.0010932188737509542
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C223,-0.08976185775120396
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C223,-0.0006423645642942098
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C223,0.008344441253203218
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C227,-0.0004146807124804869
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C227,-0.089825516856043
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C227,0.0007863808281779762
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C227,0.010698197852023477
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C342,0.008488636358087071
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C342,-0.08958188965384141
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C342,-0.0009583398529373055
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C342,0.008550843130882073
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C387,0.006807330168020458
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C387,-0.09040128251465854
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C387,0.0006760518551840611
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C387,0.007971819477149915
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C408,0.0038560192408173925
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C408,-0.0894979859441419
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C408,-0.0011392259158509073
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C408,0.008585204829910174
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C017,0.004306040739804737
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C017,-0.08355486918945493
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C017,-0.002595434347678335
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C017,0.007199666937882593
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C028,0.004226949130675923
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C028,-0.08538764449881157
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C028,-0.002105894939872277
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C028,0.008905809930887784
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C038,0.0036073529468094003
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C038,-0.09871816421173606
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C038,-0.00021610078489848659
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C038,0.008005336183968615
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C069,0.003356199315514175
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C069,-0.07486631919008076
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C069,0.0005284930948359812
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C069,0.007483122657510931
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C075,0.0039498030628007
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C075,-0.09060512306594863
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C075,-0.001273706873888559
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C075,0.008406812037734466
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C126,0.004147068088233045
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C126,-0.09316212034188366
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C126,-0.0019528219532962742
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C126,0.008125492084738258
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C162,0.004573545670004746
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C162,-0.0995110932414123
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C162,-0.003071018404000341
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C162,0.010084333907615149
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C004,-0.030203786578805587
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C004,0.015387852166221405
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C004,-0.015588846968486999
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C004,-0.015750050377026377
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C021,-0.021073946188776314
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C021,0.02309396049239263
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C021,-0.010785184704651389
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C021,-0.020489892471033177
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C045,0.011884821574971439
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C045,0.05680864467566164
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C045,-0.028883749602750308
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C045,-0.027377565272080635
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C047,-0.016493011195037943
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C047,0.027714314799754676
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C047,-0.008845025113588943
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C047,-0.019104711867755243
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C062,-0.024363375053193064
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C062,0.019475650933516372
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C062,-0.008881223841596026
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C062,-0.021104348496588463
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C077,-0.013716123560362907
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C077,0.031484551978042355
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C077,-0.006145265438257613
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C077,-0.012137558696397512
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C083,-0.01970975345245032
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C083,0.024459113505797304
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C083,-0.0099177988931609
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C083,-0.019960099124568965
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C131,-0.043396723594809755
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C131,0.0018451895087044229
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C131,0.008651128624101416
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C131,-0.0029665441291058924
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C002,-0.02939931238415204
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C002,0.022359607223207525
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C002,-0.0062105616386645395
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C002,-0.023315051617894995
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C104,-0.028638954054191198
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C104,0.02410840038782732
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C104,-0.008887032082077024
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C104,-0.020583495322025552
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C208,-0.027528034549680034
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C208,0.02581398078421024
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C208,-0.011863096124056834
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C208,-0.018593357574066865
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C223,-0.022185348059531363
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C223,0.024404793006163
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C223,-0.009442419690965185
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C223,-0.020308066552647185
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C227,-0.007571287584117224
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C227,0.025538112767895527
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C227,-0.01513077035089986
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C227,-0.025823519834642282
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C342,-0.006929143235759026
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C342,0.02443716863410019
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C342,-0.009467536121177426
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C342,-0.020212473992495882
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C387,-0.021274876564670205
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C387,0.02520151970648788
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C387,-0.010989146411992239
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C387,-0.01966683045394177
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C408,-0.013802184753797964
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C408,0.024008202684206212
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C408,-0.007051722325877212
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C408,-0.01764068793643114
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C017,-0.018664023054695285
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C017,0.03712138329661954
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C017,-0.012999343375384128
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C017,-0.023008024624565523
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C028,-0.02086118392601284
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C028,0.00700255516701441
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C028,-0.005634468421727858
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C028,-0.02133550113425028
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C038,-0.019960185472861793
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C038,0.010485306947695512
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C038,-0.008512985963342592
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C038,-0.02098267112773138
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C069,-0.019695069779815392
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C069,0.02990234657816302
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C069,-0.009302896998425528
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C069,-0.020460204871742365
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C075,-0.019147565257132522
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C075,0.015285573604931775
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C075,-0.011259110003077655
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C075,-0.021764246651999514
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C126,-0.019981729456895487
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C126,0.03209355777275118
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C126,-0.008183034926543827
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C126,-0.019076030326449563
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C162,-0.020275729585632212
+macro_f1,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C162,0.036375320030427906
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C162,-0.007597700121459551
+macro_f1,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C162,-0.02178696178760524
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C004,0.028767501876628448
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C004,-0.10951609142320834
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C004,0.011631865297592333
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C004,0.026507600722753613
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C021,0.021256376352751707
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C021,-0.1162769905066379
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C021,0.00756130745522912
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C021,0.028074187803846417
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C045,-0.002532923656074994
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C045,-0.14073483890669142
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C045,0.024476646155429115
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C045,0.034715347782682204
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C047,0.0267165679233828
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C047,-0.11077855421505031
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C047,0.00993259532646082
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C047,0.029713828095615912
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C062,0.022887569670647895
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C062,-0.1147059077491807
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C062,0.008886392112598092
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C062,0.02855287390298283
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C077,0.02074396618547937
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C077,-0.11730134821922042
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C077,0.00705382894054665
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C077,0.02501812254523819
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C083,0.025185131665406726
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C083,-0.11255050542307901
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C083,0.008996451320881366
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C083,0.02785605684615988
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C131,0.04712359168644601
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C131,-0.0915226686640998
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C131,-0.009622961517110036
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C131,0.011704163923706695
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C002,0.02678320872826786
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C002,-0.11337341861876638
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C002,0.0075232077039888295
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C002,0.029775731148958023
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C104,0.0364916617254081
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C104,-0.11337822219935367
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C104,0.007340648541861209
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C104,0.02941828336258919
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C208,0.030732280930253167
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C208,-0.1152159090907065
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C208,0.010577236911616637
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C208,0.02732930098891775
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C223,0.023278566933282313
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C223,-0.11416665075736693
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C223,0.00880005512667098
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C223,0.028652507805850408
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C227,0.007156606871636745
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C227,-0.11536362962393854
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C227,0.015917151179077837
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C227,0.03652171768666576
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C342,0.015417779593846097
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C342,-0.11401905828794164
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C342,0.008509196268240118
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C342,0.02876331712337796
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C387,0.02808220673269067
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C387,-0.11560280222114638
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C387,0.011665198267176297
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C387,0.027638649931091677
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C408,0.01765820399461536
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C408,-0.1135061886283481
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C408,0.005912496410026313
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C408,0.02622589276634132
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C017,0.022970063794500024
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C017,-0.12067625248607447
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C017,0.010403909027705795
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C017,0.030207691562448125
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C028,0.025088133056688763
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C028,-0.09239019966582598
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C028,0.003528573481855579
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C028,0.030241311065138072
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C038,0.023567538419671206
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C038,-0.10920347115943155
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C038,0.0082968851784441
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C038,0.028988007311700002
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C069,0.02305126909532956
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C069,-0.10476866576824376
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C069,0.009831390093261505
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C069,0.027943327529253284
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C075,0.02309736831993322
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C075,-0.10589069667088039
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C075,0.0099854031291891
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C075,0.030171058689733986
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C126,0.024128797545128533
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C126,-0.1252556781146348
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C126,0.0062302129732475595
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C126,0.027201522411187822
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C162,0.024849275255636967
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C162,-0.1358864132718402
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C162,0.004526681717459206
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C162,0.03187129569522039
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C004,-0.0028398873714490097
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C004,-0.057395621946183265
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C004,-0.012020138393066145
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C004,0.013315798303401348
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C021,-0.001067132788501805
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C021,-0.05663152638155309
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C021,-0.011293605260720728
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C021,0.008338821453647099
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C045,0.01133092545191119
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C045,-0.04416250320683681
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C045,-0.011415595045582318
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C045,0.008646112234179828
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C047,0.015076366616528997
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C047,-0.04037318006318376
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C047,-0.0042946168360847884
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C047,0.013188865740343298
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C062,-0.0012400704052560516
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C062,-0.05729512173067117
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C062,-0.006380836995340381
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C062,0.008675507237595014
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C077,0.009325370037834183
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C077,-0.04557347251812493
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C077,-0.005072284968487419
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C077,0.015675732139654883
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C083,0.00716847457848746
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C083,-0.04866615986296792
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C083,-0.00748812068015036
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C083,0.009189389931270806
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C131,0.007362263366145877
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C131,-0.0483794327334113
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K03_C131,-0.009377256656353226
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K03_C131,0.00854582100342764
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C002,0.00030353507813360913
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C002,-0.051552282961334094
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C002,-0.00589254695911876
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C002,0.008446959327193986
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C104,0.008986350384556521
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C104,-0.05018886877465621
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C104,-0.008137425509235833
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C104,0.010285021698991174
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C208,0.004274565017747866
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C208,-0.05027298855570206
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C208,-0.00796001095392204
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C208,0.010243316274800612
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C223,6.745151273389877e-05
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C223,-0.05088485275181663
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C223,-0.006861611689279901
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C223,0.00958604743049121
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C227,0.0012817089519459863
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C227,-0.0507055621078483
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C227,-0.005989249426157723
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C227,0.011979204999545082
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C342,0.010840213693225203
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C342,-0.05050714397588343
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C342,-0.007535584143708053
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C342,0.009999300050754643
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C387,0.007640379855480909
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C387,-0.05115712407322183
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C387,-0.006238758512295913
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C387,0.009540638587505918
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C408,0.0058052359048413
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C408,-0.05047635298414796
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K05_C408,-0.007439244701601115
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K05_C408,0.010311752693124562
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C017,0.005702994784799857
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C017,-0.04336690770866452
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C017,-0.00948042459024651
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C017,0.008401541318135287
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C028,0.00504796270894234
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C028,-0.0527989494682185
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C028,-0.007149004822141622
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C028,0.009895794152981046
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C038,0.004942328028939722
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C038,-0.05928355506814981
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C038,-0.006861362107505851
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C038,0.00948890071547806
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C069,0.0048818858866943255
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C069,-0.04112301821460511
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C069,-0.006683262470436466
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C069,0.009355210677690906
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C075,0.0053031987151380845
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C075,-0.0523070740957278
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C075,-0.008001595302023974
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C075,0.009723209481697808
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C126,0.005252562017865078
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C126,-0.050719451214423304
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C126,-0.00779553102069308
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C126,0.01002820238202376
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C162,0.0054636756238506026
+mcc,deberta_minus_svm,DeBERTa minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C162,-0.05389132531175864
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_annotation_disagreement_z,K08_C162,-0.008405726223606596
+mcc,deberta_minus_svm,DeBERTa minus SVM,common_semantic_similarity_z,K08_C162,0.01058224951303808
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C004,-0.006099533004775569
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C004,0.05816747386867905
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C004,-0.02398134936456761
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C004,-0.02683142665125378
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C021,0.0025540691191154575
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C021,0.0650733273691986
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C021,-0.0195404217319635
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C021,-0.03353061140883572
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C045,0.047911325642120764
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C045,0.11137421463586833
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C045,-0.041419046889620566
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C045,-0.041696635736686444
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C047,0.012923651901602943
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C047,0.0754936960078448
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C047,-0.014890248099121275
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C047,-0.030445246294833778
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C062,0.0023700004449702192
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C062,0.06451551585787291
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C062,-0.01582118555091909
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C062,-0.03328800760714378
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C077,0.011968890630866591
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C077,0.07527653735554414
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C077,-0.01382668228855456
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C077,-0.025841082761163224
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C083,0.008485113375858815
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C083,0.07082844170132571
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C083,-0.016702940487284934
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C083,-0.03275909579647826
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C131,-0.02377903345264543
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C131,0.04010299743806104
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K03_C131,0.007273096325253709
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K03_C131,-0.009994522432488542
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C002,-0.00817076221098993
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C002,0.06618592733343559
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C002,-0.0110922365786854
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C002,-0.03731822824045443
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C104,-0.0034045875498999647
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C104,0.06913204483427217
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C104,-0.015669333877315086
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C104,-0.03284209089387202
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C208,-0.003275220192400928
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C208,0.07130058182754725
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C208,-0.019444769703053665
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C208,-0.030296204536112117
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C223,0.005122590457800597
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C223,0.06956771626592237
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C223,-0.016481346835281428
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C223,-0.032429202932606926
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C227,0.021576318493620773
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C227,0.07082922311606143
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C227,-0.023114539179249126
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C227,-0.03912396398512041
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C342,0.021026313047685506
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C342,0.069534528903089
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C342,-0.016383739185576347
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C342,-0.03239477458603275
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C387,0.005097981615291506
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C387,0.07045248893098888
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C387,-0.018211386734333097
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C387,-0.031739925645874835
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C408,0.017686727222770624
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C408,0.06859645368520018
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K05_C408,-0.011671190309391987
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K05_C408,-0.027821824390784178
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C017,0.008160385769366257
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C017,0.08251637425274018
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C017,-0.020023645088736455
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C017,-0.035241892166942214
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C028,0.0056099280305069305
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C028,0.047789593400731495
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C028,-0.011544992560878854
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C028,-0.03381727706182445
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C038,0.0068853659110813875
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C038,0.056816387130039045
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C038,-0.015586170004389631
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C038,-0.03307137618718248
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C069,0.007063870662559707
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C069,0.07626168355804917
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C069,-0.01611858476215007
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C069,-0.03272370676617337
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C075,0.007664527843001276
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C075,0.060234791890635055
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C075,-0.01823860395743214
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C075,-0.033962883102933404
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C126,0.006883464339413931
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C126,0.07629943855509816
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C126,-0.015347211845037028
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C126,-0.03136415005533859
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C162,0.006404355530643293
+mcc,llm_minus_svm,LLM codebook minus SVM,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C162,0.08338516738465843
+mcc,llm_minus_svm,LLM codebook minus SVM,common_annotation_disagreement_z,K08_C162,-0.01418232447661311
+mcc,llm_minus_svm,LLM codebook minus SVM,common_semantic_similarity_z,K08_C162,-0.034234362435593434
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C004,0.0032596456333265694
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C004,-0.11556309581486235
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C004,0.011961210971501463
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C004,0.04014722495465513
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C021,-0.003621201907617275
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C021,-0.12170485375075166
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C021,0.008246816471242764
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C021,0.041869432862482805
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C045,-0.03658040019020956
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C045,-0.15553671784270517
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C045,0.030003451844038246
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C045,0.050342747970866276
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C047,0.0021527147149260667
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C047,-0.11586687607102855
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C047,0.0105956312630365
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C047,0.043634112035177065
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C062,-0.0036100708502262904
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C062,-0.12181063758854405
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C062,0.009440348555578714
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C062,0.04196351484473879
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C077,-0.002643520593032421
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C077,-0.12085000987366908
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C077,0.008754397320067137
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C077,0.04151681490081812
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C083,-0.0013166387973713453
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C083,-0.11949460156429365
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C083,0.009214819807134565
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C083,0.0419484857277491
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K03_C131,0.031141296818791315
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K03_C131,-0.08848243017147234
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K03_C131,-0.016650352981606935
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K03_C131,0.018540343435916175
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C002,0.008474297289123533
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C002,-0.11773821029476972
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C002,0.005199689619566631
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C002,0.04576518756764843
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C104,0.012390937934456475
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C104,-0.11932091360892835
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C104,0.007531908368079267
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C104,0.0431271125928632
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C208,0.007549785210148803
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C208,-0.12157357038324931
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C208,0.01148475874913163
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C208,0.04053952081091273
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C223,-0.005055138945066681
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C223,-0.12045256901773899
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C223,0.009619735146001524
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C223,0.042015250363098146
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C227,-0.0202946095416748
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C227,-0.12153478522390974
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C227,0.017125289753091404
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C227,0.0511031689846655
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C342,-0.010186099354460302
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C342,-0.12004167287897241
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C342,0.008848155041868292
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C342,0.04239407463678739
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C387,0.0025423982401893913
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C387,-0.12160961300421069
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C387,0.011972628222037192
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C387,0.04128056423338076
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K05_C408,-0.01188149131792934
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K05_C408,-0.11907280666934814
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K05_C408,0.004231945607790869
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K05_C408,0.03813357708390875
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C017,-0.0024573909845663957
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C017,-0.1258832819614047
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C017,0.010543220498489955
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C017,0.043643433485077494
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C028,-0.0005619653215645842
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C028,-0.10058854286894997
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C028,0.00439598773873724
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C028,0.0437130712148055
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C038,-0.0019430378821416656
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C038,-0.11609994219818887
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C038,0.00872480789688379
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C038,0.04256027690266055
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C069,-0.00218198477586538
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C069,-0.11738470177265428
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C069,0.009435322291713615
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C069,0.04207891744386428
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C075,-0.0023613291278631885
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C075,-0.11254186598636289
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C075,0.010237008655408171
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C075,0.04368609258463123
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C126,-0.0016309023215488523
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C126,-0.12701888976952147
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C126,0.007551680824343949
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C126,0.041392352437362334
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.5]",K08_C162,-0.0009406799067926829
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,"C(label_number_factor, Treatment(reference='3'))[T.8]",K08_C162,-0.1372764926964171
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_annotation_disagreement_z,K08_C162,0.005776598253006514
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,common_semantic_similarity_z,K08_C162,0.04481661194863151

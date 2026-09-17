@@ -1,0 +1,6 @@
+﻿contrast,algorithm_a,algorithm_b,interpretation,combination_count,mean_regret_difference,bootstrap_ci95_low,bootstrap_ci95_high,wilcoxon_statistic,p_value,p_value_holm
+mean_minus_always_deberta,candidate_mean,always_deberta,Negative values favor algorithm_a,24,0.0193959408714947,0.005541774204828033,0.03572969018845398,85.5,0.052218046260971054,0.20887218504388422
+ridge_minus_always_deberta,ridge,always_deberta,Negative values favor algorithm_a,24,0.0006506307909427388,-0.008516592921269705,0.008521202797740542,120.5,0.3786952362289262,1.0
+gbt_minus_always_deberta,gradient_boosting,always_deberta,Negative values favor algorithm_a,24,-0.0014990935238687862,-0.011696182463334624,0.0073754487458098286,134.0,0.6355861222787667,1.0
+mlp_minus_always_deberta,mlp,always_deberta,Negative values favor algorithm_a,24,0.0219834605055579,0.006408709988253103,0.03914568358879687,71.5,0.02162963287922523,0.10814816439612615
+gbt_minus_ridge,gradient_boosting,ridge,Negative values favor algorithm_a,24,-0.002149724314811525,-0.006449172944434575,0.0,138.0,0.7003113729368902,1.0

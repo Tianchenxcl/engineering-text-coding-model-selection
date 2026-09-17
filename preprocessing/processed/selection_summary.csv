@@ -1,0 +1,4 @@
+﻿selection,combination_count,semantic_disagreement_correlation,k3_count,k5_count,k8_count,k11_count,low_low_count,low_high_count,high_low_count,high_high_count
+all_793,793,-0.659168302169764,165,462,165,1,103,292,292,106
+common_24,24,-0.5203635312320067,8,8,7,1,4,6,8,6
+llm_40,40,-0.48189905110057035,12,15,12,1,7,13,11,9

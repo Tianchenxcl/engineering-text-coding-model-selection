@@ -1,0 +1,11 @@
+# Preserve file bytes so that release checksums remain valid across platforms.
+* -text
+*.py diff
+*.md diff
+*.csv diff
+*.json diff
+*.mjs diff
+*.joblib -diff
+*.png -diff
+*.pdf -diff
+*.xlsx -diff

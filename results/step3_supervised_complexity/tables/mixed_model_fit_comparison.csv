@@ -1,0 +1,7 @@
+﻿outcome,model,random_effects_structure,fixed_effect_parameters,log_likelihood,aic,bic,converged,interaction_lrt_chi_square,interaction_lrt_df,interaction_lrt_p
+kappa,additive,combination_plus_task,9,534.9802881646099,-1045.9605763292197,-995.8751430823966,True,,,
+kappa,model_by_complexity_interactions,combination_plus_task,16,584.7553045359264,-1131.5106090718527,-1052.208673097716,True,99.550032742633,7.0,1.3361395314952294e-18
+macro_f1,additive,combination_plus_task,9,490.11712917158,-956.23425834316,-906.1488250963369,True,,,
+macro_f1,model_by_complexity_interactions,combination_plus_task,16,556.847403330953,-1075.694806661906,-996.3928706877691,True,133.46054831874585,7.0,1.1884184098324771e-25
+mcc,additive,combination_plus_task,9,578.450667305764,-1132.901334611528,-1082.8159013647048,True,,,
+mcc,model_by_complexity_interactions,combination_plus_task,16,629.263822526091,-1220.527645052182,-1141.2257090780452,True,101.62631044065392,7.0,4.976867949533808e-19

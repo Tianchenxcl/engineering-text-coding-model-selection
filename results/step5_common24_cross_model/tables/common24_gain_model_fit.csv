@@ -1,0 +1,19 @@
+﻿analysis,outcome,contrast,contrast_display,combination_count,parameters,r_squared,adjusted_r_squared,root_mean_squared_error,condition_number
+primary_categorical_excluding_11,kappa,deberta_minus_svm,DeBERTa minus SVM,23,5,0.4622974465771701,0.34280799026098563,0.03559880027802792,4.230962222489558
+primary_categorical_excluding_11,kappa,llm_minus_svm,LLM codebook minus SVM,23,5,0.22665433771033305,0.05479974609040694,0.0793329901565383,4.230962222489558
+primary_categorical_excluding_11,kappa,deberta_minus_llm,DeBERTa minus LLM codebook,23,5,0.5344426399733684,0.43098544885633905,0.06848874731619181,4.230962222489558
+primary_categorical_excluding_11,macro_f1,deberta_minus_svm,DeBERTa minus SVM,23,5,0.6173579112426781,0.5323263359632733,0.03469519732887092,4.230962222489558
+primary_categorical_excluding_11,macro_f1,llm_minus_svm,LLM codebook minus SVM,23,5,0.14213290952798419,-0.04850422168801938,0.0631186436858325,4.230962222489558
+primary_categorical_excluding_11,macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,23,5,0.5141155406088023,0.40614121629964717,0.06387623037506499,4.230962222489558
+primary_categorical_excluding_11,mcc,deberta_minus_svm,DeBERTa minus SVM,23,5,0.452397885828428,0.3307085271236342,0.033737448497017423,4.230962222489558
+primary_categorical_excluding_11,mcc,llm_minus_svm,LLM codebook minus SVM,23,5,0.22944369657259955,0.05820896247762164,0.07723532993635045,4.230962222489558
+primary_categorical_excluding_11,mcc,deberta_minus_llm,DeBERTa minus LLM codebook,23,5,0.5088867654192479,0.39975049106796967,0.06847381346818832,4.230962222489558
+sensitivity_log2_all_labels,kappa,deberta_minus_svm,DeBERTa minus SVM,24,4,0.3212463896421405,0.2194333480884616,0.03915423048987201,1.8256629170924692
+sensitivity_log2_all_labels,kappa,llm_minus_svm,LLM codebook minus SVM,24,4,0.22911066525068746,0.1134772650382907,0.07915074915509725,1.8256629170924692
+sensitivity_log2_all_labels,kappa,deberta_minus_llm,DeBERTa minus LLM codebook,24,4,0.46172071933300296,0.3809788272329534,0.07330479721386568,1.8256629170924692
+sensitivity_log2_all_labels,macro_f1,deberta_minus_svm,DeBERTa minus SVM,24,4,0.3950093966306809,0.30426080612528306,0.04275351682857055,1.8256629170924692
+sensitivity_log2_all_labels,macro_f1,llm_minus_svm,LLM codebook minus SVM,24,4,0.1045481552798414,-0.029769621428182402,0.0638098384237473,1.8256629170924692
+sensitivity_log2_all_labels,macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,24,4,0.33893138659997635,0.2397710945899728,0.07362844020809074,1.8256629170924692
+sensitivity_log2_all_labels,mcc,deberta_minus_svm,DeBERTa minus SVM,24,4,0.30890060374975015,0.20523569431221278,0.0371069276670164,1.8256629170924692
+sensitivity_log2_all_labels,mcc,llm_minus_svm,LLM codebook minus SVM,24,4,0.2338868695037667,0.11896989992933171,0.07701440616466783,1.8256629170924692
+sensitivity_log2_all_labels,mcc,deberta_minus_llm,DeBERTa minus LLM codebook,24,4,0.44027854124921395,0.35632032243659606,0.07272451948428753,1.8256629170924692

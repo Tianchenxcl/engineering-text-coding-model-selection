@@ -1,0 +1,11 @@
+﻿outcome,fit_role,structure,reml,optimizer,converged,log_likelihood,warning,error
+kappa,additive_ml,combination_plus_prompt_cell,False,lbfgs,True,845.4483423743573,The MLE may be on the boundary of the parameter space.,
+kappa,interaction_ml,combination_plus_prompt_cell,False,lbfgs,True,866.5111128135582,The MLE may be on the boundary of the parameter space.,
+kappa,interaction_reml,combination_plus_prompt_cell,True,lbfgs,True,809.4187362973119,The MLE may be on the boundary of the parameter space.,
+macro_f1,additive_ml,combination_plus_prompt_cell,False,lbfgs,True,943.0533120728485,The MLE may be on the boundary of the parameter space.,
+macro_f1,interaction_ml,combination_plus_prompt_cell,False,lbfgs,True,960.5469760286232,The MLE may be on the boundary of the parameter space.,
+macro_f1,interaction_reml,combination_plus_prompt_cell,True,lbfgs,True,899.1914679581705,The MLE may be on the boundary of the parameter space.,
+mcc,additive_ml,combination_plus_prompt_cell,False,lbfgs,True,840.8055484937881,The MLE may be on the boundary of the parameter space.,
+mcc,interaction_ml,combination_plus_prompt_cell,False,lbfgs,True,864.3604902297284,The MLE may be on the boundary of the parameter space.,
+mcc,interaction_reml,combination_plus_prompt_cell,True,lbfgs,True,806.9398273278441,The MLE may be on the boundary of the parameter space.,
+kappa,exclude_k11_reml,combination_plus_prompt_cell,True,lbfgs,True,790.0676212250852,The MLE may be on the boundary of the parameter space.,

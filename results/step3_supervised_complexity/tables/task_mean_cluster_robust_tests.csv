@@ -1,0 +1,37 @@
+﻿analysis,outcome,test,tested_terms,numerator_df,denominator_df,f_statistic,p_value
+primary_all_labels,kappa,all_complexity_terms,"C(label_number_factor, Treatment(reference='3'))[T.11] | C(label_number_factor, Treatment(reference='3'))[T.5] | C(label_number_factor, Treatment(reference='3'))[T.8] | class_imbalance_z | annotation_disagreement_z | log2_training_size_z | semantic_similarity_z",7,23.0,87.78245964788827,4.513257291501939e-15
+primary_all_labels,kappa,label_number,"C(label_number_factor, Treatment(reference='3'))[T.11] | C(label_number_factor, Treatment(reference='3'))[T.5] | C(label_number_factor, Treatment(reference='3'))[T.8]",3,23.0,57.74259752211975,7.326730689558778e-11
+primary_all_labels,kappa,class_imbalance_z,class_imbalance_z,1,23.0,29.244548351316325,1.7059280620158943e-05
+primary_all_labels,kappa,annotation_disagreement_z,annotation_disagreement_z,1,23.0,0.22609334340638632,0.6389206958316446
+primary_all_labels,kappa,log2_training_size_z,log2_training_size_z,1,23.0,234.24202531835647,1.4994877279858417e-13
+primary_all_labels,kappa,semantic_similarity_z,semantic_similarity_z,1,23.0,5.391638253532823,0.029442981994022527
+primary_all_labels,macro_f1,all_complexity_terms,"C(label_number_factor, Treatment(reference='3'))[T.11] | C(label_number_factor, Treatment(reference='3'))[T.5] | C(label_number_factor, Treatment(reference='3'))[T.8] | class_imbalance_z | annotation_disagreement_z | log2_training_size_z | semantic_similarity_z",7,23.0,67.59809964121926,7.856920135472593e-14
+primary_all_labels,macro_f1,label_number,"C(label_number_factor, Treatment(reference='3'))[T.11] | C(label_number_factor, Treatment(reference='3'))[T.5] | C(label_number_factor, Treatment(reference='3'))[T.8]",3,23.0,92.96977920940111,5.273236385555154e-13
+primary_all_labels,macro_f1,class_imbalance_z,class_imbalance_z,1,23.0,39.08987258745632,2.2245668656273637e-06
+primary_all_labels,macro_f1,annotation_disagreement_z,annotation_disagreement_z,1,23.0,0.00443517988660575,0.9474779451811545
+primary_all_labels,macro_f1,log2_training_size_z,log2_training_size_z,1,23.0,165.62491130610135,5.403712520836471e-12
+primary_all_labels,macro_f1,semantic_similarity_z,semantic_similarity_z,1,23.0,6.019087433322487,0.022151092350825446
+primary_all_labels,mcc,all_complexity_terms,"C(label_number_factor, Treatment(reference='3'))[T.11] | C(label_number_factor, Treatment(reference='3'))[T.5] | C(label_number_factor, Treatment(reference='3'))[T.8] | class_imbalance_z | annotation_disagreement_z | log2_training_size_z | semantic_similarity_z",7,23.0,91.4301161711313,2.882576851019795e-15
+primary_all_labels,mcc,label_number,"C(label_number_factor, Treatment(reference='3'))[T.11] | C(label_number_factor, Treatment(reference='3'))[T.5] | C(label_number_factor, Treatment(reference='3'))[T.8]",3,23.0,63.574382281093314,2.757414555407623e-11
+primary_all_labels,mcc,class_imbalance_z,class_imbalance_z,1,23.0,23.392543599356653,6.998437462385096e-05
+primary_all_labels,mcc,annotation_disagreement_z,annotation_disagreement_z,1,23.0,0.2474043450315112,0.6236305751565023
+primary_all_labels,mcc,log2_training_size_z,log2_training_size_z,1,23.0,235.60215836207666,1.4109216264921666e-13
+primary_all_labels,mcc,semantic_similarity_z,semantic_similarity_z,1,23.0,5.324471504111637,0.030370842938134444
+sensitivity_excluding_11_labels,kappa,all_complexity_terms,"C(label_number_factor, Treatment(reference='3'))[T.5] | C(label_number_factor, Treatment(reference='3'))[T.8] | class_imbalance_z | annotation_disagreement_z | log2_training_size_z | semantic_similarity_z",6,22.0,80.94355761682701,7.281582794772035e-14
+sensitivity_excluding_11_labels,kappa,label_number,"C(label_number_factor, Treatment(reference='3'))[T.5] | C(label_number_factor, Treatment(reference='3'))[T.8]",2,22.0,36.356926202809284,1.0619424270273221e-07
+sensitivity_excluding_11_labels,kappa,class_imbalance_z,class_imbalance_z,1,22.0,28.53929529558876,2.3097695545667316e-05
+sensitivity_excluding_11_labels,kappa,annotation_disagreement_z,annotation_disagreement_z,1,22.0,0.2660814504218224,0.6111180570703528
+sensitivity_excluding_11_labels,kappa,log2_training_size_z,log2_training_size_z,1,22.0,206.27596636529597,1.1734851214652966e-12
+sensitivity_excluding_11_labels,kappa,semantic_similarity_z,semantic_similarity_z,1,22.0,5.444142831515667,0.029176162100703562
+sensitivity_excluding_11_labels,macro_f1,all_complexity_terms,"C(label_number_factor, Treatment(reference='3'))[T.5] | C(label_number_factor, Treatment(reference='3'))[T.8] | class_imbalance_z | annotation_disagreement_z | log2_training_size_z | semantic_similarity_z",6,22.0,56.48866967639491,3.0000967529651382e-12
+sensitivity_excluding_11_labels,macro_f1,label_number,"C(label_number_factor, Treatment(reference='3'))[T.5] | C(label_number_factor, Treatment(reference='3'))[T.8]",2,22.0,72.42138366678861,2.0954063607608367e-10
+sensitivity_excluding_11_labels,macro_f1,class_imbalance_z,class_imbalance_z,1,22.0,38.336797721808466,3.1235806611314626e-06
+sensitivity_excluding_11_labels,macro_f1,annotation_disagreement_z,annotation_disagreement_z,1,22.0,0.01893106015399303,0.891815820385476
+sensitivity_excluding_11_labels,macro_f1,log2_training_size_z,log2_training_size_z,1,22.0,148.2622047158174,3.0028902990188344e-11
+sensitivity_excluding_11_labels,macro_f1,semantic_similarity_z,semantic_similarity_z,1,22.0,6.115199695366415,0.02160665178659603
+sensitivity_excluding_11_labels,mcc,all_complexity_terms,"C(label_number_factor, Treatment(reference='3'))[T.5] | C(label_number_factor, Treatment(reference='3'))[T.8] | class_imbalance_z | annotation_disagreement_z | log2_training_size_z | semantic_similarity_z",6,22.0,84.19802310078958,4.822235382705731e-14
+sensitivity_excluding_11_labels,mcc,label_number,"C(label_number_factor, Treatment(reference='3'))[T.5] | C(label_number_factor, Treatment(reference='3'))[T.8]",2,22.0,39.575146932450075,5.152415189415338e-08
+sensitivity_excluding_11_labels,mcc,class_imbalance_z,class_imbalance_z,1,22.0,22.8059274936882,9.084815338568452e-05
+sensitivity_excluding_11_labels,mcc,annotation_disagreement_z,annotation_disagreement_z,1,22.0,0.29325661752079907,0.593583540030517
+sensitivity_excluding_11_labels,mcc,log2_training_size_z,log2_training_size_z,1,22.0,208.84215136614753,1.0371447716595457e-12
+sensitivity_excluding_11_labels,mcc,semantic_similarity_z,semantic_similarity_z,1,22.0,5.376919989325279,0.030085463124210562

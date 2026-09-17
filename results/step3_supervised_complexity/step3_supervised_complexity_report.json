@@ -1,0 +1,177 @@
+{
+  "generated_at_utc": "2026-07-15T11:39:40+00:00",
+  "input_dir": "[workspace]\\7.13 code\\statistical_analysis\\step1_data_quality",
+  "output_dir": "[workspace]\\7.13 code\\statistical_analysis\\step3_supervised_complexity",
+  "primary_outcome": "kappa",
+  "robustness_outcomes": [
+    "macro_f1",
+    "mcc"
+  ],
+  "fixed_effects": "model family * (categorical label number + standardized class imbalance + standardized annotation disagreement + standardized log2 training size + standardized semantic similarity)",
+  "preferred_random_effects": "label-combination intercept plus nested task intercept",
+  "adjusted_prediction_method": "Marginal standardization over the 240 observed task profiles; the focal complexity dimension and model are varied while the empirical distribution of other dimensions is retained.",
+  "selected_random_effects_by_outcome": {
+    "kappa": "combination_plus_task",
+    "macro_f1": "combination_plus_task",
+    "mcc": "combination_plus_task"
+  },
+  "analysis_rows": 480,
+  "task_count": 240,
+  "combination_count": 24,
+  "interaction_lrt_p_values": {
+    "kappa": 1.3361395314952294e-18,
+    "macro_f1": 1.1884184098324771e-25,
+    "mcc": 4.976867949533808e-19
+  },
+  "significant_interaction_count": 15,
+  "significant_interactions": [
+    {
+      "outcome": "kappa",
+      "dimension": "Label number",
+      "description": "DeBERTa-SVM difference: 11 versus 3 labels",
+      "estimate": -0.1592359307544165,
+      "p_value": 3.6952152048411106e-09,
+      "ci95_low": -0.21215798868229097,
+      "ci95_high": -0.10631387282654203
+    },
+    {
+      "outcome": "kappa",
+      "dimension": "Label number",
+      "description": "DeBERTa-SVM difference: 5 versus 3 labels",
+      "estimate": -0.06336460933630989,
+      "p_value": 3.7565794475985934e-06,
+      "ci95_low": -0.09022040944527905,
+      "ci95_high": -0.03650880922734072
+    },
+    {
+      "outcome": "kappa",
+      "dimension": "Label number",
+      "description": "DeBERTa-SVM difference: 8 versus 3 labels",
+      "estimate": -0.12796761839943654,
+      "p_value": 3.037971923268002e-19,
+      "ci95_low": -0.15593714864276403,
+      "ci95_high": -0.09999808815610906
+    },
+    {
+      "outcome": "kappa",
+      "dimension": "Class imbalance",
+      "description": "Difference in class imbalance slope: DeBERTa minus SVM",
+      "estimate": -0.017657002497470466,
+      "p_value": 0.012821254546702946,
+      "ci95_low": -0.03156271417336283,
+      "ci95_high": -0.0037512908215781016
+    },
+    {
+      "outcome": "kappa",
+      "dimension": "Training sample size",
+      "description": "Difference in training sample size slope: DeBERTa minus SVM",
+      "estimate": 0.03630790883359013,
+      "p_value": 8.920006606792267e-10,
+      "ci95_low": 0.024694570166146106,
+      "ci95_high": 0.047921247501034145
+    },
+    {
+      "outcome": "macro_f1",
+      "dimension": "Label number",
+      "description": "DeBERTa-SVM difference: 11 versus 3 labels",
+      "estimate": -0.19305937535656015,
+      "p_value": 1.7222847999661647e-11,
+      "ci95_low": -0.249301909477732,
+      "ci95_high": -0.1368168412353883
+    },
+    {
+      "outcome": "macro_f1",
+      "dimension": "Label number",
+      "description": "DeBERTa-SVM difference: 5 versus 3 labels",
+      "estimate": -0.07657883727062528,
+      "p_value": 1.4496075760989037e-07,
+      "ci95_low": -0.10511964450904729,
+      "ci95_high": -0.04803803003220327
+    },
+    {
+      "outcome": "macro_f1",
+      "dimension": "Label number",
+      "description": "DeBERTa-SVM difference: 8 versus 3 labels",
+      "estimate": -0.15949018863592782,
+      "p_value": 7.25639971425513e-26,
+      "ci95_low": -0.18921460451573702,
+      "ci95_high": -0.1297657727561186
+    },
+    {
+      "outcome": "macro_f1",
+      "dimension": "Class imbalance",
+      "description": "Difference in class imbalance slope: DeBERTa minus SVM",
+      "estimate": -0.038368657596655545,
+      "p_value": 3.60605038985254e-07,
+      "ci95_low": -0.05314685205909385,
+      "ci95_high": -0.02359046313421724
+    },
+    {
+      "outcome": "macro_f1",
+      "dimension": "Training sample size",
+      "description": "Difference in training sample size slope: DeBERTa minus SVM",
+      "estimate": 0.051056682546787226,
+      "p_value": 5.144633293104561e-16,
+      "ci95_low": 0.038714690911567415,
+      "ci95_high": 0.06339867418200704
+    },
+    {
+      "outcome": "mcc",
+      "dimension": "Label number",
+      "description": "DeBERTa-SVM difference: 11 versus 3 labels",
+      "estimate": -0.14243710764661777,
+      "p_value": 7.534983057264035e-09,
+      "ci95_low": -0.19074886231301544,
+      "ci95_high": -0.0941253529802201
+    },
+    {
+      "outcome": "mcc",
+      "dimension": "Label number",
+      "description": "DeBERTa-SVM difference: 5 versus 3 labels",
+      "estimate": -0.052671661876164115,
+      "p_value": 2.5439898948490606e-05,
+      "ci95_low": -0.07718791987963369,
+      "ci95_high": -0.02815540387269453
+    },
+    {
+      "outcome": "mcc",
+      "dimension": "Label number",
+      "description": "DeBERTa-SVM difference: 8 versus 3 labels",
+      "estimate": -0.11198147791507948,
+      "p_value": 8.259091846822302e-18,
+      "ci95_low": -0.13751444349044703,
+      "ci95_high": -0.08644851233971192
+    },
+    {
+      "outcome": "mcc",
+      "dimension": "Class imbalance",
+      "description": "Difference in class imbalance slope: DeBERTa minus SVM",
+      "estimate": -0.030817703626180443,
+      "p_value": 1.9536545247145034e-06,
+      "ci95_low": -0.043512019706310155,
+      "ci95_high": -0.01812338754605073
+    },
+    {
+      "outcome": "mcc",
+      "dimension": "Training sample size",
+      "description": "Difference in training sample size slope: DeBERTa minus SVM",
+      "estimate": 0.03595702958438258,
+      "p_value": 2.98101396844275e-11,
+      "ci95_low": 0.025355386516684907,
+      "ci95_high": 0.046558672652080246
+    }
+  ],
+  "figure_status": "rendered",
+  "figure_count": 4,
+  "output_checks": {
+    "all_primary_models_converged": true,
+    "missing_primary_fixed_effect_cells": 0,
+    "fixed_predictions_outside_unit_interval": 12,
+    "paired_difference_cluster_count": 24,
+    "all_paired_difference_coefficients_finite": true,
+    "all_task_mean_coefficients_finite": true
+  },
+  "support_warning": "The 11-label condition contains one label combination. Its categorical main and interaction coefficients are exploratory; use the excluding-11 sensitivity model when assessing replicated model-task fit patterns.",
+  "interpretation_boundary": "Coefficients describe associations across deliberately constructed tasks. Continuous coefficients are kappa/metric changes per one task-level standard deviation. Model-by-complexity terms estimate how DeBERTa sensitivity differs from SVM; they are not causal effects.",
+  "distributional_robustness": "Mixed-model residual normality is assessed explicitly. Cluster-robust task-mean and paired-difference regressions are provided so common complexity effects and model-fit effects do not rely solely on Gaussian mixed-model standard errors."
+}

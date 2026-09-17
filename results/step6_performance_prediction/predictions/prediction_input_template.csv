@@ -1,0 +1,6 @@
+﻿new_task_id,model_variant,label_number,class_imbalance,annotation_disagreement,training_sample_size,semantic_similarity
+example_SVM,SVM,5,0.138152620783103,0.21,750.0,0.4180718000446047
+example_DeBERTa,DeBERTa,5,0.138152620783103,0.21,750.0,0.4180718000446047
+example_LLM_zero_shot,LLM_zero_shot,5,,0.21,,0.4180718000446047
+example_LLM_few_shot,LLM_few_shot,5,,0.21,,0.4180718000446047
+example_LLM_codebook_guided,LLM_codebook_guided,5,,0.21,,0.4180718000446047

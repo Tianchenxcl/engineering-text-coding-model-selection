@@ -1,0 +1,16 @@
+﻿file,variable,definition,status
+supervised_analysis_ready.csv,kappa,Primary reliability outcome,original
+supervised_analysis_ready.csv,label_number_factor,"Label-number factor: 3, 5, 8, or 11",derived
+supervised_analysis_ready.csv,class_imbalance_z,Standardized realized class-imbalance index,derived
+supervised_analysis_ready.csv,annotation_disagreement_z,Standardized sampled annotation-disagreement rate,derived
+supervised_analysis_ready.csv,log2_training_size_z,Standardized base-2 log training size,derived
+supervised_analysis_ready.csv,semantic_similarity_z,Standardized average pairwise label-semantic similarity,derived
+supervised_analysis_ready.csv,task_cluster_id,Paired SVM-DeBERTa task cluster,derived
+supervised_analysis_ready.csv,combination_cluster_id,Label-combination cluster,derived
+llm_analysis_ready.csv,prompt_strategy_factor,"Zero-shot, few-shot, or codebook-guided prompt",derived
+llm_analysis_ready.csv,repeat_id_factor,Repeated API run identifier,derived
+llm_analysis_ready.csv,annotation_disagreement_z,Combination-level standardized disagreement,derived
+llm_analysis_ready.csv,semantic_similarity_z,Combination-level standardized semantic similarity,derived
+common24_primary_analysis_ready.csv,candidate_model,"SVM, DeBERTa, or codebook-guided DeepSeek",derived
+common24_primary_analysis_ready.csv,common_annotation_disagreement_z,Common24 standardized disagreement,derived
+common24_primary_analysis_ready.csv,common_semantic_similarity_z,Common24 standardized semantic similarity,derived

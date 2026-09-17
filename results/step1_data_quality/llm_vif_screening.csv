@@ -1,0 +1,4 @@
+﻿dataset,feature,vif,r_squared_against_other_features,reference_rows,screening_note
+llm_combination_reference,label_number,1.006632935840293,0.006589229901121874,40,VIF is a screening diagnostic; categorical label-number effects are modeled as factors later.
+llm_combination_reference,annotation_disagreement_complexity,1.3069113306450988,0.2348371488168257,40,VIF is a screening diagnostic; categorical label-number effects are modeled as factors later.
+llm_combination_reference,semantic_similarity_complexity,1.3030745859068602,0.23258421980192245,40,VIF is a screening diagnostic; categorical label-number effects are modeled as factors later.

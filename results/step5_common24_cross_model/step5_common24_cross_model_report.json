@@ -1,0 +1,261 @@
+{
+  "generated_at_utc": "2026-07-15T12:33:01+00:00",
+  "input_dir": "[workspace]\\7.13 code\\statistical_analysis\\step1_data_quality",
+  "output_dir": "[workspace]\\7.13 code\\statistical_analysis\\step5_common24_cross_model",
+  "analysis_unit": "24 matched label combinations with one result per candidate; LLM result is the mean of three calls",
+  "primary_outcome": "kappa",
+  "robustness_outcomes": [
+    "macro_f1",
+    "mcc"
+  ],
+  "candidate_models": [
+    "TF-IDF + LinearSVC",
+    "DeBERTa-v3-base",
+    "DeepSeek V4 Flash (codebook_guided)"
+  ],
+  "comparison_scope": "Supervised anchors use 3,000 natural-imbalance training examples. LLM uses codebook-guided prompting without task-specific training.",
+  "complexity_moderators": [
+    "categorical label number",
+    "standardized annotation disagreement",
+    "standardized label semantic similarity"
+  ],
+  "analysis_rows": 72,
+  "combination_count": 24,
+  "kappa_model_means": {
+    "SVM": 0.672144860225933,
+    "DeBERTa": 0.7061543915592385,
+    "LLM codebook": 0.5029438446207436
+  },
+  "kappa_pairwise_differences": {
+    "deberta_minus_svm": {
+      "mean_difference": 0.03400953133330555,
+      "ci95_low": 0.014672721240332825,
+      "ci95_high": 0.052825946760515934,
+      "wilcoxon_p_holm": 0.0020009279251098633,
+      "wins": 20,
+      "losses": 4
+    },
+    "llm_minus_svm": {
+      "mean_difference": -0.1692010156051895,
+      "ci95_low": -0.20561383145348122,
+      "ci95_high": -0.13420063350276148,
+      "wilcoxon_p_holm": 3.5762786865234375e-07,
+      "wins": 0,
+      "losses": 24
+    },
+    "deberta_minus_llm": {
+      "mean_difference": 0.20321054693849505,
+      "ci95_low": 0.1639092787772265,
+      "ci95_high": 0.24352839044848335,
+      "wilcoxon_p_holm": 3.5762786865234375e-07,
+      "wins": 24,
+      "losses": 0
+    }
+  },
+  "kappa_friedman": {
+    "outcome": "kappa",
+    "combination_count": 24,
+    "friedman_chi_square": 41.333333333333314,
+    "degrees_of_freedom": 2,
+    "p_value": 1.0582315547160055e-09,
+    "kendalls_w": 0.8611111111111107
+  },
+  "kappa_task_wins": {
+    "SVM": 4,
+    "DeBERTa": 20,
+    "LLM codebook": 0
+  },
+  "kappa_leave_one_out_pairwise_sign_stability": [
+    {
+      "contrast": "deberta_minus_svm",
+      "full_mean_difference": 0.03400953133330555,
+      "leave_one_out_minimum": 0.030270815304318834,
+      "leave_one_out_maximum": 0.0390512494153121,
+      "same_sign_share": 1.0
+    },
+    {
+      "contrast": "llm_minus_svm",
+      "full_mean_difference": -0.1692010156051895,
+      "leave_one_out_minimum": -0.17632009803723403,
+      "leave_one_out_maximum": -0.16047062497932812,
+      "same_sign_share": 1.0
+    },
+    {
+      "contrast": "deberta_minus_llm",
+      "full_mean_difference": 0.20321054693849505,
+      "leave_one_out_minimum": 0.1933501359358209,
+      "leave_one_out_maximum": 0.21021590545731625,
+      "same_sign_share": 1.0
+    }
+  ],
+  "primary_kappa_complexity_tests": [
+    {
+      "analysis": "primary_categorical_excluding_11",
+      "outcome": "kappa",
+      "contrast": "deberta_minus_svm",
+      "contrast_display": "DeBERTa minus SVM",
+      "test": "all_complexity_terms",
+      "degrees_of_freedom": 4,
+      "f_statistic": 3.1795657861392344,
+      "denominator_df": 18.0,
+      "p_value": 0.03849467395758414,
+      "adjustment_family": "overall_complexity_omnibus",
+      "p_value_holm_within_analysis_outcome": 0.07698934791516827
+    },
+    {
+      "analysis": "primary_categorical_excluding_11",
+      "outcome": "kappa",
+      "contrast": "deberta_minus_svm",
+      "contrast_display": "DeBERTa minus SVM",
+      "test": "label_number",
+      "degrees_of_freedom": 2,
+      "f_statistic": 5.029310687992879,
+      "denominator_df": 18.0,
+      "p_value": 0.01840160005706042,
+      "adjustment_family": "dimension_specific",
+      "p_value_holm_within_analysis_outcome": 0.14721280045648336
+    },
+    {
+      "analysis": "primary_categorical_excluding_11",
+      "outcome": "kappa",
+      "contrast": "deberta_minus_svm",
+      "contrast_display": "DeBERTa minus SVM",
+      "test": "annotation_disagreement",
+      "degrees_of_freedom": 1,
+      "f_statistic": 0.35378343628659487,
+      "denominator_df": 18.0,
+      "p_value": 0.5593827158588246,
+      "adjustment_family": "dimension_specific",
+      "p_value_holm_within_analysis_outcome": 1.0
+    },
+    {
+      "analysis": "primary_categorical_excluding_11",
+      "outcome": "kappa",
+      "contrast": "deberta_minus_svm",
+      "contrast_display": "DeBERTa minus SVM",
+      "test": "semantic_similarity",
+      "degrees_of_freedom": 1,
+      "f_statistic": 1.6329738234971944,
+      "denominator_df": 18.0,
+      "p_value": 0.2175271116616429,
+      "adjustment_family": "dimension_specific",
+      "p_value_holm_within_analysis_outcome": 1.0
+    },
+    {
+      "analysis": "primary_categorical_excluding_11",
+      "outcome": "kappa",
+      "contrast": "llm_minus_svm",
+      "contrast_display": "LLM codebook minus SVM",
+      "test": "all_complexity_terms",
+      "degrees_of_freedom": 4,
+      "f_statistic": 0.9852610772966693,
+      "denominator_df": 18.0,
+      "p_value": 0.44042351626988085,
+      "adjustment_family": "overall_complexity_omnibus",
+      "p_value_holm_within_analysis_outcome": 0.44042351626988085
+    },
+    {
+      "analysis": "primary_categorical_excluding_11",
+      "outcome": "kappa",
+      "contrast": "llm_minus_svm",
+      "contrast_display": "LLM codebook minus SVM",
+      "test": "label_number",
+      "degrees_of_freedom": 2,
+      "f_statistic": 1.1493391879601453,
+      "denominator_df": 18.0,
+      "p_value": 0.33903355554917947,
+      "adjustment_family": "dimension_specific",
+      "p_value_holm_within_analysis_outcome": 1.0
+    },
+    {
+      "analysis": "primary_categorical_excluding_11",
+      "outcome": "kappa",
+      "contrast": "llm_minus_svm",
+      "contrast_display": "LLM codebook minus SVM",
+      "test": "annotation_disagreement",
+      "degrees_of_freedom": 1,
+      "f_statistic": 0.1674333955559631,
+      "denominator_df": 18.0,
+      "p_value": 0.6872307572880232,
+      "adjustment_family": "dimension_specific",
+      "p_value_holm_within_analysis_outcome": 1.0
+    },
+    {
+      "analysis": "primary_categorical_excluding_11",
+      "outcome": "kappa",
+      "contrast": "llm_minus_svm",
+      "contrast_display": "LLM codebook minus SVM",
+      "test": "semantic_similarity",
+      "degrees_of_freedom": 1,
+      "f_statistic": 1.3374493106607686,
+      "denominator_df": 18.0,
+      "p_value": 0.2626031049242955,
+      "adjustment_family": "dimension_specific",
+      "p_value_holm_within_analysis_outcome": 1.0
+    },
+    {
+      "analysis": "primary_categorical_excluding_11",
+      "outcome": "kappa",
+      "contrast": "deberta_minus_llm",
+      "contrast_display": "DeBERTa minus LLM codebook",
+      "test": "all_complexity_terms",
+      "degrees_of_freedom": 4,
+      "f_statistic": 4.656935902451841,
+      "denominator_df": 18.0,
+      "p_value": 0.00932333499742941,
+      "adjustment_family": "overall_complexity_omnibus",
+      "p_value_holm_within_analysis_outcome": 0.02797000499228823
+    },
+    {
+      "analysis": "primary_categorical_excluding_11",
+      "outcome": "kappa",
+      "contrast": "deberta_minus_llm",
+      "contrast_display": "DeBERTa minus LLM codebook",
+      "test": "label_number",
+      "degrees_of_freedom": 2,
+      "f_statistic": 5.360481435121708,
+      "denominator_df": 18.0,
+      "p_value": 0.014916316372678562,
+      "adjustment_family": "dimension_specific",
+      "p_value_holm_within_analysis_outcome": 0.13424684735410705
+    },
+    {
+      "analysis": "primary_categorical_excluding_11",
+      "outcome": "kappa",
+      "contrast": "deberta_minus_llm",
+      "contrast_display": "DeBERTa minus LLM codebook",
+      "test": "annotation_disagreement",
+      "degrees_of_freedom": 1,
+      "f_statistic": 0.0806583909581527,
+      "denominator_df": 18.0,
+      "p_value": 0.7796482604575109,
+      "adjustment_family": "dimension_specific",
+      "p_value_holm_within_analysis_outcome": 1.0
+    },
+    {
+      "analysis": "primary_categorical_excluding_11",
+      "outcome": "kappa",
+      "contrast": "deberta_minus_llm",
+      "contrast_display": "DeBERTa minus LLM codebook",
+      "test": "semantic_similarity",
+      "degrees_of_freedom": 1,
+      "f_statistic": 2.6832005342953993,
+      "denominator_df": 18.0,
+      "p_value": 0.11877356909311662,
+      "adjustment_family": "dimension_specific",
+      "p_value_holm_within_analysis_outcome": 0.8314149836518163
+    }
+  ],
+  "holm_significant_primary_kappa_moderators": [],
+  "figure_status": "rendered",
+  "figure_count": 4,
+  "output_checks": {
+    "complete_three_candidate_blocks": true,
+    "metric_values_within_minus1_plus1": true,
+    "all_hc3_coefficients_finite": true,
+    "all_bootstrap_intervals_finite": true,
+    "gain_models_have_adequate_residual_df": true
+  },
+  "support_warning": "The 11-label condition contains one combination. It is retained in overall paired comparisons but excluded from the primary categorical complexity-moderation regressions.",
+  "interpretation_boundary": "Common24 identifies matched cross-model differences at a fixed supervised training design. It does not identify training-size or class-imbalance moderation, and complexity coefficients are associative rather than causal."
+}

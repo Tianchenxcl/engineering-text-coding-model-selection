@@ -1,0 +1,10 @@
+﻿outcome,algorithm,selected_parameters,full_data_inner_variant_balanced_rmse,full_data_inner_score_sd
+kappa,ridge,"{""alpha"": 1.0}",0.10660669718874442,0.012993218497679204
+kappa,gradient_boosting,"{""learning_rate"": 0.08, ""max_depth"": 1, ""min_samples_leaf"": 5, ""n_estimators"": 250}",0.11508419623105877,0.01789906431408185
+kappa,mlp,"{""alpha"": 0.01, ""hidden_layer_sizes"": [16, 8]}",0.12921606471185915,0.016224750739238042
+macro_f1,ridge,"{""alpha"": 1.0}",0.09043033272672872,0.008571519694147909
+macro_f1,gradient_boosting,"{""learning_rate"": 0.08, ""max_depth"": 1, ""min_samples_leaf"": 5, ""n_estimators"": 250}",0.09762431384301133,0.010970061981687288
+macro_f1,mlp,"{""alpha"": 0.01, ""hidden_layer_sizes"": [16]}",0.12095602001941526,0.02143831604117032
+mcc,ridge,"{""alpha"": 1.0}",0.10463826185511098,0.012500427954487407
+mcc,gradient_boosting,"{""learning_rate"": 0.08, ""max_depth"": 1, ""min_samples_leaf"": 5, ""n_estimators"": 250}",0.11362755285144366,0.01794714943891939
+mcc,mlp,"{""alpha"": 0.01, ""hidden_layer_sizes"": [16, 8]}",0.12458037733221528,0.03555205327238344

@@ -1,0 +1,9 @@
+﻿validation,algorithm,rmse,r2
+Record-stratified,candidate_mean,0.16752315792303257,0.02872031260545005
+Record-stratified,ridge,0.09985064006822543,0.6549386553744998
+Record-stratified,gradient_boosting,0.08413100480560769,0.7550334669511324
+Record-stratified,mlp,0.11300080358974543,0.5580657427961291
+Grouped by label combination,candidate_mean,0.16940238019099577,0.006807068093892754
+Grouped by label combination,ridge,0.11041358299504746,0.578070772444843
+Grouped by label combination,gradient_boosting,0.12635744089631432,0.44741861928966253
+Grouped by label combination,mlp,0.1480289397575545,0.2416182714428522

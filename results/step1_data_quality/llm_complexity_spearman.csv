@@ -1,0 +1,4 @@
+﻿,label_number,annotation_disagreement_complexity,semantic_similarity_complexity
+label_number,1.0,0.050307007332887316,-0.05695507339068505
+annotation_disagreement_complexity,0.050307007332887316,1.0,-0.4292682926829268
+semantic_similarity_complexity,-0.05695507339068505,-0.4292682926829268,1.0

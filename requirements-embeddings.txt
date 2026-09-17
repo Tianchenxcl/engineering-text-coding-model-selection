@@ -1,0 +1,5 @@
+# Optional recovered workflow; original installed versions were not recorded.
+sentence-transformers
+scikit-learn
+pandas
+openpyxl

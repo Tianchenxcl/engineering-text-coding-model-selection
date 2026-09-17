@@ -1,0 +1,217 @@
+﻿outcome,contrast,contrast_display,omitted_combination,leave_one_out_mean_difference
+kappa,deberta_minus_svm,DeBERTa minus SVM,K03_C004,0.034401250086927536
+kappa,deberta_minus_svm,DeBERTa minus SVM,K03_C021,0.034836032695623194
+kappa,deberta_minus_svm,DeBERTa minus SVM,K03_C045,0.03187939874275914
+kappa,deberta_minus_svm,DeBERTa minus SVM,K03_C047,0.030270815304318834
+kappa,deberta_minus_svm,DeBERTa minus SVM,K03_C062,0.03592298921736232
+kappa,deberta_minus_svm,DeBERTa minus SVM,K03_C077,0.033749076173884056
+kappa,deberta_minus_svm,DeBERTa minus SVM,K03_C083,0.031575163130405794
+kappa,deberta_minus_svm,DeBERTa minus SVM,K03_C131,0.032879510956492754
+kappa,deberta_minus_svm,DeBERTa minus SVM,K05_C002,0.03081429356518841
+kappa,deberta_minus_svm,DeBERTa minus SVM,K05_C104,0.033658240890329275
+kappa,deberta_minus_svm,DeBERTa minus SVM,K05_C208,0.03352307950774249
+kappa,deberta_minus_svm,DeBERTa minus SVM,K05_C223,0.03123157950981661
+kappa,deberta_minus_svm,DeBERTa minus SVM,K05_C227,0.032336032695623185
+kappa,deberta_minus_svm,DeBERTa minus SVM,K05_C342,0.03516211965214493
+kappa,deberta_minus_svm,DeBERTa minus SVM,K05_C387,0.03521693126912613
+kappa,deberta_minus_svm,DeBERTa minus SVM,K05_C408,0.03330231422908787
+kappa,deberta_minus_svm,DeBERTa minus SVM,K08_C017,0.037731397198035206
+kappa,deberta_minus_svm,DeBERTa minus SVM,K08_C028,0.03471645157408204
+kappa,deberta_minus_svm,DeBERTa minus SVM,K08_C038,0.0332764937850243
+kappa,deberta_minus_svm,DeBERTa minus SVM,K08_C069,0.0390512494153121
+kappa,deberta_minus_svm,DeBERTa minus SVM,K08_C075,0.035239587153716584
+kappa,deberta_minus_svm,DeBERTa minus SVM,K08_C126,0.03596471883852328
+kappa,deberta_minus_svm,DeBERTa minus SVM,K08_C162,0.035482277613764865
+kappa,deberta_minus_svm,DeBERTa minus SVM,K11_C001,0.03400774879404237
+kappa,llm_minus_svm,LLM codebook minus SVM,K03_C004,-0.16257207425469042
+kappa,llm_minus_svm,LLM codebook minus SVM,K03_C021,-0.16778946555903826
+kappa,llm_minus_svm,LLM codebook minus SVM,K03_C045,-0.17632009803723403
+kappa,llm_minus_svm,LLM codebook minus SVM,K03_C047,-0.1702532336749803
+kappa,llm_minus_svm,LLM codebook minus SVM,K03_C062,-0.16728221918222666
+kappa,llm_minus_svm,LLM codebook minus SVM,K03_C077,-0.17286192932715422
+kappa,llm_minus_svm,LLM codebook minus SVM,K03_C083,-0.16706482787787885
+kappa,llm_minus_svm,LLM codebook minus SVM,K03_C131,-0.16047062497932812
+kappa,llm_minus_svm,LLM codebook minus SVM,K05_C002,-0.1702532336749803
+kappa,llm_minus_svm,LLM codebook minus SVM,K05_C104,-0.17109494518211243
+kappa,llm_minus_svm,LLM codebook minus SVM,K05_C208,-0.17205081208275563
+kappa,llm_minus_svm,LLM codebook minus SVM,K05_C223,-0.16864214066227817
+kappa,llm_minus_svm,LLM codebook minus SVM,K05_C227,-0.16641265396483537
+kappa,llm_minus_svm,LLM codebook minus SVM,K05_C342,-0.16394888584889336
+kappa,llm_minus_svm,LLM codebook minus SVM,K05_C387,-0.16923358511885395
+kappa,llm_minus_svm,LLM codebook minus SVM,K05_C408,-0.1637325529978793
+kappa,llm_minus_svm,LLM codebook minus SVM,K08_C017,-0.1690308071182611
+kappa,llm_minus_svm,LLM codebook minus SVM,K08_C028,-0.1754994538832342
+kappa,llm_minus_svm,LLM codebook minus SVM,K08_C038,-0.17415910537300416
+kappa,llm_minus_svm,LLM codebook minus SVM,K08_C069,-0.16976926783250082
+kappa,llm_minus_svm,LLM codebook minus SVM,K08_C075,-0.17287292769210916
+kappa,llm_minus_svm,LLM codebook minus SVM,K08_C126,-0.16883460800952244
+kappa,llm_minus_svm,LLM codebook minus SVM,K08_C162,-0.16770007519233762
+kappa,llm_minus_svm,LLM codebook minus SVM,K11_C001,-0.1729748469984581
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C004,0.196973324341618
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C021,0.2026254982546615
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C045,0.2081994967799932
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C047,0.2005240489792992
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C062,0.203205208399589
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C077,0.2066110055010383
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C083,0.1986399910082847
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C131,0.1933501359358209
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C002,0.20106752724016874
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C104,0.2047531860724417
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C208,0.20557389159049813
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C223,0.1998737201720948
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C227,0.19874868666045858
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C342,0.1991110055010383
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C387,0.20445051638798006
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C408,0.19703486722696723
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C017,0.20676220431629636
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C028,0.21021590545731625
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C038,0.20743559915802845
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C069,0.20882051724781292
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C075,0.20811251484582574
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C126,0.20479932684804572
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C162,0.2031823528061025
+kappa,deberta_minus_llm,DeBERTa minus LLM codebook,K11_C001,0.20698259579250047
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K03_C004,0.00754002614890456
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K03_C021,0.007885089592916682
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K03_C045,0.005777198833128888
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K03_C047,0.0048214320966769395
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K03_C062,0.008579542222291611
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K03_C077,0.007149279059386921
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K03_C083,0.005684874973082793
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K03_C131,0.006378884502240561
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K05_C002,0.004463178866623792
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K05_C104,0.007581421459830848
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K05_C208,0.006727038348171957
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K05_C223,0.005555609701947384
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K05_C227,0.005848500546918501
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K05_C342,0.008033994386980966
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K05_C387,0.008052659635749575
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K05_C408,0.006439217876235504
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K08_C017,0.01227017876362548
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K08_C028,0.011283441636035013
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K08_C038,0.008306375844101384
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K08_C069,0.01491801666692906
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K08_C075,0.010309421383919678
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K08_C126,0.009732790278421197
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K08_C162,0.008249635620824383
+macro_f1,deberta_minus_svm,DeBERTa minus SVM,K11_C001,0.008448997088583298
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K03_C004,-0.12961895939955823
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K03_C021,-0.13329336225753066
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K03_C045,-0.13943915563415904
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K03_C047,-0.13488991182288324
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K03_C062,-0.13257419741535031
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K03_C077,-0.13677885249850222
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K03_C083,-0.13248706549785944
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K03_C131,-0.12803648536689327
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K05_C002,-0.13376993087286132
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K05_C104,-0.13497701981239055
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K05_C208,-0.13530465682703283
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K05_C223,-0.1329952502817797
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K05_C227,-0.13061337816569285
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K05_C342,-0.12860850826599518
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K05_C387,-0.1333806579841099
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K05_C408,-0.1299206852582002
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K08_C017,-0.13203112215047783
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K08_C028,-0.13809904542311074
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K08_C038,-0.1377623311847295
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K08_C069,-0.1332095382561444
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K08_C075,-0.13655102789063697
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K08_C126,-0.13219288691328474
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K08_C162,-0.13151185175904517
+macro_f1,llm_minus_svm,LLM codebook minus SVM,K11_C001,-0.1355312737022606
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C004,0.13715898554846281
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C021,0.14117845185044736
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C045,0.14521635446728798
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C047,0.13971134391956017
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C062,0.14115373963764197
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C077,0.14392813155788917
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C083,0.13817194047094225
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C131,0.13441536986913385
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C002,0.13823310973948516
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C104,0.14255844127222142
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C208,0.14203169517520478
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C223,0.1385508599837271
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C227,0.13646187871261134
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C342,0.1366425026529762
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C387,0.14143331761985947
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C408,0.13635990313443572
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C017,0.14430130091410334
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C028,0.14938248705914575
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C038,0.14606870702883087
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C069,0.14812755492307347
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C075,0.14686044927455666
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C126,0.14192567719170593
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C162,0.13976148737986957
+macro_f1,deberta_minus_llm,DeBERTa minus LLM codebook,K11_C001,0.14398027079084388
+mcc,deberta_minus_svm,DeBERTa minus SVM,K03_C004,0.030554912469537295
+mcc,deberta_minus_svm,DeBERTa minus SVM,K03_C021,0.03128764209121311
+mcc,deberta_minus_svm,DeBERTa minus SVM,K03_C045,0.02901231690612655
+mcc,deberta_minus_svm,DeBERTa minus SVM,K03_C047,0.02643903469348501
+mcc,deberta_minus_svm,DeBERTa minus SVM,K03_C062,0.03208407215191467
+mcc,deberta_minus_svm,DeBERTa minus SVM,K03_C077,0.030047915847485143
+mcc,deberta_minus_svm,DeBERTa minus SVM,K03_C083,0.02806602291794813
+mcc,deberta_minus_svm,DeBERTa minus SVM,K03_C131,0.029236246659575978
+mcc,deberta_minus_svm,DeBERTa minus SVM,K05_C002,0.027063660705398118
+mcc,deberta_minus_svm,DeBERTa minus SVM,K05_C104,0.03028015187458621
+mcc,deberta_minus_svm,DeBERTa minus SVM,K05_C208,0.02986158721040894
+mcc,deberta_minus_svm,DeBERTa minus SVM,K05_C223,0.027567697304617167
+mcc,deberta_minus_svm,DeBERTa minus SVM,K05_C227,0.028714307818736958
+mcc,deberta_minus_svm,DeBERTa minus SVM,K05_C342,0.03128636552095872
+mcc,deberta_minus_svm,DeBERTa minus SVM,K05_C387,0.03139466745062906
+mcc,deberta_minus_svm,DeBERTa minus SVM,K05_C408,0.029713933222100884
+mcc,deberta_minus_svm,DeBERTa minus SVM,K08_C017,0.03373011656632019
+mcc,deberta_minus_svm,DeBERTa minus SVM,K08_C028,0.030823851435127905
+mcc,deberta_minus_svm,DeBERTa minus SVM,K08_C038,0.029530070827120447
+mcc,deberta_minus_svm,DeBERTa minus SVM,K08_C069,0.03491583983055802
+mcc,deberta_minus_svm,DeBERTa minus SVM,K08_C075,0.03142566914019622
+mcc,deberta_minus_svm,DeBERTa minus SVM,K08_C126,0.03208797742070061
+mcc,deberta_minus_svm,DeBERTa minus SVM,K08_C162,0.031654218165518534
+mcc,deberta_minus_svm,DeBERTa minus SVM,K11_C001,0.0301521881590586
+mcc,llm_minus_svm,LLM codebook minus SVM,K03_C004,-0.16262634885410754
+mcc,llm_minus_svm,LLM codebook minus SVM,K03_C021,-0.16667830879651294
+mcc,llm_minus_svm,LLM codebook minus SVM,K03_C045,-0.1751200128242677
+mcc,llm_minus_svm,LLM codebook minus SVM,K03_C047,-0.1702016117303744
+mcc,llm_minus_svm,LLM codebook minus SVM,K03_C062,-0.16692532358539858
+mcc,llm_minus_svm,LLM codebook minus SVM,K03_C077,-0.17207046467004744
+mcc,llm_minus_svm,LLM codebook minus SVM,K03_C083,-0.1665459860606667
+mcc,llm_minus_svm,LLM codebook minus SVM,K03_C131,-0.1599804739360665
+mcc,llm_minus_svm,LLM codebook minus SVM,K05_C002,-0.1697808622779682
+mcc,llm_minus_svm,LLM codebook minus SVM,K05_C104,-0.17059891719734588
+mcc,llm_minus_svm,LLM codebook minus SVM,K05_C208,-0.17149778624512813
+mcc,llm_minus_svm,LLM codebook minus SVM,K05_C223,-0.1679811729826266
+mcc,llm_minus_svm,LLM codebook minus SVM,K05_C227,-0.1659215504625627
+mcc,llm_minus_svm,LLM codebook minus SVM,K05_C342,-0.16348956585699267
+mcc,llm_minus_svm,LLM codebook minus SVM,K05_C387,-0.16890060506760177
+mcc,llm_minus_svm,LLM codebook minus SVM,K05_C408,-0.16318684064875477
+mcc,llm_minus_svm,LLM codebook minus SVM,K08_C017,-0.1683883689079228
+mcc,llm_minus_svm,LLM codebook minus SVM,K08_C028,-0.1750404990359667
+mcc,llm_minus_svm,LLM codebook minus SVM,K08_C038,-0.17347196879911259
+mcc,llm_minus_svm,LLM codebook minus SVM,K08_C069,-0.16903575837030727
+mcc,llm_minus_svm,LLM codebook minus SVM,K08_C075,-0.17243932593249722
+mcc,llm_minus_svm,LLM codebook minus SVM,K08_C126,-0.1683498561687603
+mcc,llm_minus_svm,LLM codebook minus SVM,K08_C162,-0.16721999806305385
+mcc,llm_minus_svm,LLM codebook minus SVM,K11_C001,-0.1724081801824667
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C004,0.19318126132364483
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C021,0.19796595088772603
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C045,0.20413232973039425
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C047,0.1966406464238594
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C062,0.1990093957373132
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C077,0.20211838051753253
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C083,0.1946120089786148
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K03_C131,0.1892167205956424
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C002,0.1968445229833663
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C104,0.20087906907193206
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C208,0.20135937345553706
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C223,0.19554887028724374
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C227,0.19463585828129965
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C342,0.19477593137795138
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C387,0.20029527251823084
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K05_C408,0.19290077387085566
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C017,0.202118485474243
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C028,0.20586435047109458
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C038,0.20300203962623303
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C069,0.2039515982008653
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C075,0.20386499507269346
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C126,0.20043783358946093
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K08_C162,0.19887421622857243
+mcc,deberta_minus_llm,DeBERTa minus LLM codebook,K11_C001,0.20256036834152535

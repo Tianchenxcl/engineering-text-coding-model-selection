@@ -1,0 +1,217 @@
+﻿stratifier,stratum,candidate_model,outcome,statistic,value
+common_label_number,3,TF-IDF + LinearSVC,kappa,size,8.0
+common_label_number,3,DeBERTa-v3-base,kappa,size,8.0
+common_label_number,3,DeepSeek V4 Flash (codebook_guided),kappa,size,8.0
+common_label_number,5,TF-IDF + LinearSVC,kappa,size,8.0
+common_label_number,5,DeBERTa-v3-base,kappa,size,8.0
+common_label_number,5,DeepSeek V4 Flash (codebook_guided),kappa,size,8.0
+common_label_number,8,TF-IDF + LinearSVC,kappa,size,7.0
+common_label_number,8,DeBERTa-v3-base,kappa,size,7.0
+common_label_number,8,DeepSeek V4 Flash (codebook_guided),kappa,size,7.0
+common_label_number,11,TF-IDF + LinearSVC,kappa,size,1.0
+common_label_number,11,DeBERTa-v3-base,kappa,size,1.0
+common_label_number,11,DeepSeek V4 Flash (codebook_guided),kappa,size,1.0
+common_label_number,3,TF-IDF + LinearSVC,kappa,mean,0.7299279733181947
+common_label_number,3,DeBERTa-v3-base,kappa,mean,0.7828032959326788
+common_label_number,3,DeepSeek V4 Flash (codebook_guided),kappa,mean,0.5348702083596741
+common_label_number,5,TF-IDF + LinearSVC,kappa,mean,0.7035118346388729
+common_label_number,5,DeBERTa-v3-base,kappa,mean,0.7571623865959118
+common_label_number,5,DeepSeek V4 Flash (codebook_guided),kappa,mean,0.5106227875205177
+common_label_number,8,TF-IDF + LinearSVC,kappa,mean,0.5938760938895431
+common_label_number,8,DeBERTa-v3-base,kappa,mean,0.5838719832739417
+common_label_number,8,DeepSeek V4 Flash (codebook_guided),kappa,mean,0.46889795326818173
+common_label_number,11,TF-IDF + LinearSVC,kappa,mean,0.50682552453905
+common_label_number,11,DeBERTa-v3-base,kappa,mean,0.5408760542754089
+common_label_number,11,DeepSeek V4 Flash (codebook_guided),kappa,mean,0.4244226309790394
+common_label_number,3,TF-IDF + LinearSVC,kappa,std,0.08101021253809221
+common_label_number,3,DeBERTa-v3-base,kappa,std,0.08775475027542137
+common_label_number,3,DeepSeek V4 Flash (codebook_guided),kappa,std,0.1491004876118598
+common_label_number,5,TF-IDF + LinearSVC,kappa,std,0.05859542209459248
+common_label_number,5,DeBERTa-v3-base,kappa,std,0.05339482442907931
+common_label_number,5,DeepSeek V4 Flash (codebook_guided),kappa,std,0.08637593743793338
+common_label_number,8,TF-IDF + LinearSVC,kappa,std,0.06734778881346648
+common_label_number,8,DeBERTa-v3-base,kappa,std,0.07028036969480142
+common_label_number,8,DeepSeek V4 Flash (codebook_guided),kappa,std,0.05286887146369992
+common_label_number,11,TF-IDF + LinearSVC,kappa,std,
+common_label_number,11,DeBERTa-v3-base,kappa,std,
+common_label_number,11,DeepSeek V4 Flash (codebook_guided),kappa,std,
+common_label_number,3,TF-IDF + LinearSVC,macro_f1,size,8.0
+common_label_number,3,DeBERTa-v3-base,macro_f1,size,8.0
+common_label_number,3,DeepSeek V4 Flash (codebook_guided),macro_f1,size,8.0
+common_label_number,5,TF-IDF + LinearSVC,macro_f1,size,8.0
+common_label_number,5,DeBERTa-v3-base,macro_f1,size,8.0
+common_label_number,5,DeepSeek V4 Flash (codebook_guided),macro_f1,size,8.0
+common_label_number,8,TF-IDF + LinearSVC,macro_f1,size,7.0
+common_label_number,8,DeBERTa-v3-base,macro_f1,size,7.0
+common_label_number,8,DeepSeek V4 Flash (codebook_guided),macro_f1,size,7.0
+common_label_number,11,TF-IDF + LinearSVC,macro_f1,size,1.0
+common_label_number,11,DeBERTa-v3-base,macro_f1,size,1.0
+common_label_number,11,DeepSeek V4 Flash (codebook_guided),macro_f1,size,1.0
+common_label_number,3,TF-IDF + LinearSVC,macro_f1,mean,0.818372182202618
+common_label_number,3,DeBERTa-v3-base,macro_f1,mean,0.8536870463788367
+common_label_number,3,DeepSeek V4 Flash (codebook_guided),macro_f1,mean,0.6827592485037465
+common_label_number,5,TF-IDF + LinearSVC,macro_f1,mean,0.7657601814850546
+common_label_number,5,DeBERTa-v3-base,macro_f1,mean,0.8042798271540134
+common_label_number,5,DeepSeek V4 Flash (codebook_guided),macro_f1,mean,0.6084470283152454
+common_label_number,8,TF-IDF + LinearSVC,macro_f1,mean,0.6481432956423097
+common_label_number,8,DeBERTa-v3-base,macro_f1,mean,0.5915219891103092
+common_label_number,8,DeepSeek V4 Flash (codebook_guided),macro_f1,mean,0.5375989241848028
+common_label_number,11,TF-IDF + LinearSVC,macro_f1,mean,0.5656666796983323
+common_label_number,11,DeBERTa-v3-base,macro_f1,mean,0.5613765521944434
+common_label_number,11,DeepSeek V4 Flash (codebook_guided),macro_f1,mean,0.4793088202098367
+common_label_number,3,TF-IDF + LinearSVC,macro_f1,std,0.057686246855723385
+common_label_number,3,DeBERTa-v3-base,macro_f1,std,0.06056699158592307
+common_label_number,3,DeepSeek V4 Flash (codebook_guided),macro_f1,std,0.10405915655587859
+common_label_number,5,TF-IDF + LinearSVC,macro_f1,std,0.0462495735860046
+common_label_number,5,DeBERTa-v3-base,macro_f1,std,0.04104700695961753
+common_label_number,5,DeepSeek V4 Flash (codebook_guided),macro_f1,std,0.06386368034119984
+common_label_number,8,TF-IDF + LinearSVC,macro_f1,std,0.061363730839765526
+common_label_number,8,DeBERTa-v3-base,macro_f1,std,0.08550144904887721
+common_label_number,8,DeepSeek V4 Flash (codebook_guided),macro_f1,std,0.04660683616739977
+common_label_number,11,TF-IDF + LinearSVC,macro_f1,std,
+common_label_number,11,DeBERTa-v3-base,macro_f1,std,
+common_label_number,11,DeepSeek V4 Flash (codebook_guided),macro_f1,std,
+common_label_number,3,TF-IDF + LinearSVC,mcc,size,8.0
+common_label_number,3,DeBERTa-v3-base,mcc,size,8.0
+common_label_number,3,DeepSeek V4 Flash (codebook_guided),mcc,size,8.0
+common_label_number,5,TF-IDF + LinearSVC,mcc,size,8.0
+common_label_number,5,DeBERTa-v3-base,mcc,size,8.0
+common_label_number,5,DeepSeek V4 Flash (codebook_guided),mcc,size,8.0
+common_label_number,8,TF-IDF + LinearSVC,mcc,size,7.0
+common_label_number,8,DeBERTa-v3-base,mcc,size,7.0
+common_label_number,8,DeepSeek V4 Flash (codebook_guided),mcc,size,7.0
+common_label_number,11,TF-IDF + LinearSVC,mcc,size,1.0
+common_label_number,11,DeBERTa-v3-base,mcc,size,1.0
+common_label_number,11,DeepSeek V4 Flash (codebook_guided),mcc,size,1.0
+common_label_number,3,TF-IDF + LinearSVC,mcc,mean,0.7389828690599816
+common_label_number,3,DeBERTa-v3-base,mcc,mean,0.785319864704607
+common_label_number,3,DeepSeek V4 Flash (codebook_guided),mcc,mean,0.5440501074686165
+common_label_number,5,TF-IDF + LinearSVC,mcc,mean,0.7103150557898161
+common_label_number,5,DeBERTa-v3-base,mcc,mean,0.75908370524526
+common_label_number,5,DeepSeek V4 Flash (codebook_guided),mcc,mean,0.5188575087578756
+common_label_number,8,TF-IDF + LinearSVC,mcc,mean,0.5997911983022958
+common_label_number,8,DeBERTa-v3-base,mcc,mean,0.590170507853409
+common_label_number,8,DeepSeek V4 Flash (codebook_guided),mcc,mean,0.47489610184368275
+common_label_number,11,TF-IDF + LinearSVC,mcc,mean,0.5118880236034311
+common_label_number,11,DeBERTa-v3-base,mcc,mean,0.5453181623344058
+common_label_number,11,DeepSeek V4 Flash (codebook_guided),mcc,mean,0.429416381143656
+common_label_number,3,TF-IDF + LinearSVC,mcc,std,0.07762421650189338
+common_label_number,3,DeBERTa-v3-base,mcc,std,0.08681182676069067
+common_label_number,3,DeepSeek V4 Flash (codebook_guided),mcc,std,0.14741476053967004
+common_label_number,5,TF-IDF + LinearSVC,mcc,std,0.057638971380932394
+common_label_number,5,DeBERTa-v3-base,mcc,std,0.05299057460308424
+common_label_number,5,DeepSeek V4 Flash (codebook_guided),mcc,std,0.08755366223208264
+common_label_number,8,TF-IDF + LinearSVC,mcc,std,0.06566218258463173
+common_label_number,8,DeBERTa-v3-base,mcc,std,0.06724690979738446
+common_label_number,8,DeepSeek V4 Flash (codebook_guided),mcc,std,0.05336190517454022
+common_label_number,11,TF-IDF + LinearSVC,mcc,std,
+common_label_number,11,DeBERTa-v3-base,mcc,std,
+common_label_number,11,DeepSeek V4 Flash (codebook_guided),mcc,std,
+common_complexity_quadrant,high_semantic_high_disagreement,TF-IDF + LinearSVC,kappa,size,6.0
+common_complexity_quadrant,high_semantic_high_disagreement,DeBERTa-v3-base,kappa,size,6.0
+common_complexity_quadrant,high_semantic_high_disagreement,DeepSeek V4 Flash (codebook_guided),kappa,size,6.0
+common_complexity_quadrant,high_semantic_low_disagreement,TF-IDF + LinearSVC,kappa,size,8.0
+common_complexity_quadrant,high_semantic_low_disagreement,DeBERTa-v3-base,kappa,size,8.0
+common_complexity_quadrant,high_semantic_low_disagreement,DeepSeek V4 Flash (codebook_guided),kappa,size,8.0
+common_complexity_quadrant,low_semantic_high_disagreement,TF-IDF + LinearSVC,kappa,size,6.0
+common_complexity_quadrant,low_semantic_high_disagreement,DeBERTa-v3-base,kappa,size,6.0
+common_complexity_quadrant,low_semantic_high_disagreement,DeepSeek V4 Flash (codebook_guided),kappa,size,6.0
+common_complexity_quadrant,low_semantic_low_disagreement,TF-IDF + LinearSVC,kappa,size,4.0
+common_complexity_quadrant,low_semantic_low_disagreement,DeBERTa-v3-base,kappa,size,4.0
+common_complexity_quadrant,low_semantic_low_disagreement,DeepSeek V4 Flash (codebook_guided),kappa,size,4.0
+common_complexity_quadrant,high_semantic_high_disagreement,TF-IDF + LinearSVC,kappa,mean,0.6089014739930432
+common_complexity_quadrant,high_semantic_high_disagreement,DeBERTa-v3-base,kappa,mean,0.63333222743368
+common_complexity_quadrant,high_semantic_high_disagreement,DeepSeek V4 Flash (codebook_guided),kappa,mean,0.3922758111522264
+common_complexity_quadrant,high_semantic_low_disagreement,TF-IDF + LinearSVC,kappa,mean,0.680950375006531
+common_complexity_quadrant,high_semantic_low_disagreement,DeBERTa-v3-base,kappa,mean,0.7367142994483473
+common_complexity_quadrant,high_semantic_low_disagreement,DeepSeek V4 Flash (codebook_guided),kappa,mean,0.5217173340752322
+common_complexity_quadrant,low_semantic_high_disagreement,TF-IDF + LinearSVC,kappa,mean,0.6772128897176036
+common_complexity_quadrant,low_semantic_high_disagreement,DeBERTa-v3-base,kappa,mean,0.68431725961368
+common_complexity_quadrant,low_semantic_high_disagreement,DeepSeek V4 Flash (codebook_guided),kappa,mean,0.5354200687357066
+common_complexity_quadrant,low_semantic_low_disagreement,TF-IDF + LinearSVC,kappa,mean,0.7417968657765661
+common_complexity_quadrant,low_semantic_low_disagreement,DeBERTa-v3-base,kappa,mean,0.787023519887697
+common_complexity_quadrant,low_semantic_low_disagreement,DeepSeek V4 Flash (codebook_guided),kappa,mean,0.5826845797420976
+common_complexity_quadrant,high_semantic_high_disagreement,TF-IDF + LinearSVC,kappa,std,0.08491841302189589
+common_complexity_quadrant,high_semantic_high_disagreement,DeBERTa-v3-base,kappa,std,0.09174471036853948
+common_complexity_quadrant,high_semantic_high_disagreement,DeepSeek V4 Flash (codebook_guided),kappa,std,0.07041734105586744
+common_complexity_quadrant,high_semantic_low_disagreement,TF-IDF + LinearSVC,kappa,std,0.10442517816619726
+common_complexity_quadrant,high_semantic_low_disagreement,DeBERTa-v3-base,kappa,std,0.11419493618816291
+common_complexity_quadrant,high_semantic_low_disagreement,DeepSeek V4 Flash (codebook_guided),kappa,std,0.08007404364634381
+common_complexity_quadrant,low_semantic_high_disagreement,TF-IDF + LinearSVC,kappa,std,0.07174156225832898
+common_complexity_quadrant,low_semantic_high_disagreement,DeBERTa-v3-base,kappa,std,0.09802306484540461
+common_complexity_quadrant,low_semantic_high_disagreement,DeepSeek V4 Flash (codebook_guided),kappa,std,0.07131584979555175
+common_complexity_quadrant,low_semantic_low_disagreement,TF-IDF + LinearSVC,kappa,std,0.08099576151787408
+common_complexity_quadrant,low_semantic_low_disagreement,DeBERTa-v3-base,kappa,std,0.13364201307598814
+common_complexity_quadrant,low_semantic_low_disagreement,DeepSeek V4 Flash (codebook_guided),kappa,std,0.1215815089638389
+common_complexity_quadrant,high_semantic_high_disagreement,TF-IDF + LinearSVC,macro_f1,size,6.0
+common_complexity_quadrant,high_semantic_high_disagreement,DeBERTa-v3-base,macro_f1,size,6.0
+common_complexity_quadrant,high_semantic_high_disagreement,DeepSeek V4 Flash (codebook_guided),macro_f1,size,6.0
+common_complexity_quadrant,high_semantic_low_disagreement,TF-IDF + LinearSVC,macro_f1,size,8.0
+common_complexity_quadrant,high_semantic_low_disagreement,DeBERTa-v3-base,macro_f1,size,8.0
+common_complexity_quadrant,high_semantic_low_disagreement,DeepSeek V4 Flash (codebook_guided),macro_f1,size,8.0
+common_complexity_quadrant,low_semantic_high_disagreement,TF-IDF + LinearSVC,macro_f1,size,6.0
+common_complexity_quadrant,low_semantic_high_disagreement,DeBERTa-v3-base,macro_f1,size,6.0
+common_complexity_quadrant,low_semantic_high_disagreement,DeepSeek V4 Flash (codebook_guided),macro_f1,size,6.0
+common_complexity_quadrant,low_semantic_low_disagreement,TF-IDF + LinearSVC,macro_f1,size,4.0
+common_complexity_quadrant,low_semantic_low_disagreement,DeBERTa-v3-base,macro_f1,size,4.0
+common_complexity_quadrant,low_semantic_low_disagreement,DeepSeek V4 Flash (codebook_guided),macro_f1,size,4.0
+common_complexity_quadrant,high_semantic_high_disagreement,TF-IDF + LinearSVC,macro_f1,mean,0.6794768923198791
+common_complexity_quadrant,high_semantic_high_disagreement,DeBERTa-v3-base,macro_f1,mean,0.6803643600406115
+common_complexity_quadrant,high_semantic_high_disagreement,DeepSeek V4 Flash (codebook_guided),macro_f1,mean,0.5074563960355956
+common_complexity_quadrant,high_semantic_low_disagreement,TF-IDF + LinearSVC,macro_f1,mean,0.7498489369087664
+common_complexity_quadrant,high_semantic_low_disagreement,DeBERTa-v3-base,macro_f1,mean,0.7722731900498964
+common_complexity_quadrant,high_semantic_low_disagreement,DeepSeek V4 Flash (codebook_guided),macro_f1,mean,0.6311553058665105
+common_complexity_quadrant,low_semantic_high_disagreement,TF-IDF + LinearSVC,macro_f1,mean,0.7465013610111567
+common_complexity_quadrant,low_semantic_high_disagreement,DeBERTa-v3-base,macro_f1,mean,0.7360391497908177
+common_complexity_quadrant,low_semantic_high_disagreement,DeepSeek V4 Flash (codebook_guided),macro_f1,mean,0.6303677615613941
+common_complexity_quadrant,low_semantic_low_disagreement,TF-IDF + LinearSVC,macro_f1,mean,0.8052669108598837
+common_complexity_quadrant,low_semantic_low_disagreement,DeBERTa-v3-base,macro_f1,mean,0.8222897212104155
+common_complexity_quadrant,low_semantic_low_disagreement,DeepSeek V4 Flash (codebook_guided),macro_f1,mean,0.6739910278853425
+common_complexity_quadrant,high_semantic_high_disagreement,TF-IDF + LinearSVC,macro_f1,std,0.09186577275228493
+common_complexity_quadrant,high_semantic_high_disagreement,DeBERTa-v3-base,macro_f1,std,0.11991752734357485
+common_complexity_quadrant,high_semantic_high_disagreement,DeepSeek V4 Flash (codebook_guided),macro_f1,std,0.029191513144669903
+common_complexity_quadrant,high_semantic_low_disagreement,TF-IDF + LinearSVC,macro_f1,std,0.1080121984745392
+common_complexity_quadrant,high_semantic_low_disagreement,DeBERTa-v3-base,macro_f1,std,0.13532563687518262
+common_complexity_quadrant,high_semantic_low_disagreement,DeepSeek V4 Flash (codebook_guided),macro_f1,std,0.07201790433373519
+common_complexity_quadrant,low_semantic_high_disagreement,TF-IDF + LinearSVC,macro_f1,std,0.0645512267138188
+common_complexity_quadrant,low_semantic_high_disagreement,DeBERTa-v3-base,macro_f1,std,0.12757974618120313
+common_complexity_quadrant,low_semantic_high_disagreement,DeepSeek V4 Flash (codebook_guided),macro_f1,std,0.08349154865596155
+common_complexity_quadrant,low_semantic_low_disagreement,TF-IDF + LinearSVC,macro_f1,std,0.08168592950775914
+common_complexity_quadrant,low_semantic_low_disagreement,DeBERTa-v3-base,macro_f1,std,0.14797334853855534
+common_complexity_quadrant,low_semantic_low_disagreement,DeepSeek V4 Flash (codebook_guided),macro_f1,std,0.13236882241047054
+common_complexity_quadrant,high_semantic_high_disagreement,TF-IDF + LinearSVC,mcc,size,6.0
+common_complexity_quadrant,high_semantic_high_disagreement,DeBERTa-v3-base,mcc,size,6.0
+common_complexity_quadrant,high_semantic_high_disagreement,DeepSeek V4 Flash (codebook_guided),mcc,size,6.0
+common_complexity_quadrant,high_semantic_low_disagreement,TF-IDF + LinearSVC,mcc,size,8.0
+common_complexity_quadrant,high_semantic_low_disagreement,DeBERTa-v3-base,mcc,size,8.0
+common_complexity_quadrant,high_semantic_low_disagreement,DeepSeek V4 Flash (codebook_guided),mcc,size,8.0
+common_complexity_quadrant,low_semantic_high_disagreement,TF-IDF + LinearSVC,mcc,size,6.0
+common_complexity_quadrant,low_semantic_high_disagreement,DeBERTa-v3-base,mcc,size,6.0
+common_complexity_quadrant,low_semantic_high_disagreement,DeepSeek V4 Flash (codebook_guided),mcc,size,6.0
+common_complexity_quadrant,low_semantic_low_disagreement,TF-IDF + LinearSVC,mcc,size,4.0
+common_complexity_quadrant,low_semantic_low_disagreement,DeBERTa-v3-base,mcc,size,4.0
+common_complexity_quadrant,low_semantic_low_disagreement,DeepSeek V4 Flash (codebook_guided),mcc,size,4.0
+common_complexity_quadrant,high_semantic_high_disagreement,TF-IDF + LinearSVC,mcc,mean,0.6145081373883688
+common_complexity_quadrant,high_semantic_high_disagreement,DeBERTa-v3-base,mcc,mean,0.6364794799744257
+common_complexity_quadrant,high_semantic_high_disagreement,DeepSeek V4 Flash (codebook_guided),mcc,mean,0.3994229478464219
+common_complexity_quadrant,high_semantic_low_disagreement,TF-IDF + LinearSVC,mcc,mean,0.6887218000992458
+common_complexity_quadrant,high_semantic_low_disagreement,DeBERTa-v3-base,mcc,mean,0.7395269888151166
+common_complexity_quadrant,high_semantic_low_disagreement,DeepSeek V4 Flash (codebook_guided),mcc,mean,0.5299436974551187
+common_complexity_quadrant,low_semantic_high_disagreement,TF-IDF + LinearSVC,mcc,mean,0.6866112375702137
+common_complexity_quadrant,low_semantic_high_disagreement,DeBERTa-v3-base,mcc,mean,0.689338014051439
+common_complexity_quadrant,low_semantic_high_disagreement,DeepSeek V4 Flash (codebook_guided),mcc,mean,0.5437661401774401
+common_complexity_quadrant,low_semantic_low_disagreement,TF-IDF + LinearSVC,mcc,mean,0.7470797899931055
+common_complexity_quadrant,low_semantic_low_disagreement,DeBERTa-v3-base,mcc,mean,0.790154850557771
+common_complexity_quadrant,low_semantic_low_disagreement,DeepSeek V4 Flash (codebook_guided),mcc,mean,0.5895664790193127
+common_complexity_quadrant,high_semantic_high_disagreement,TF-IDF + LinearSVC,mcc,std,0.08358521893248017
+common_complexity_quadrant,high_semantic_high_disagreement,DeBERTa-v3-base,mcc,std,0.08950074912268909
+common_complexity_quadrant,high_semantic_high_disagreement,DeepSeek V4 Flash (codebook_guided),mcc,std,0.0702606581121637
+common_complexity_quadrant,high_semantic_low_disagreement,TF-IDF + LinearSVC,mcc,std,0.10625381826275247
+common_complexity_quadrant,high_semantic_low_disagreement,DeBERTa-v3-base,mcc,std,0.11307903933972348
+common_complexity_quadrant,high_semantic_low_disagreement,DeepSeek V4 Flash (codebook_guided),mcc,std,0.07861292618548767
+common_complexity_quadrant,low_semantic_high_disagreement,TF-IDF + LinearSVC,mcc,std,0.06533627740752679
+common_complexity_quadrant,low_semantic_high_disagreement,DeBERTa-v3-base,mcc,std,0.09378079414020041
+common_complexity_quadrant,low_semantic_high_disagreement,DeepSeek V4 Flash (codebook_guided),mcc,std,0.07532392523871072
+common_complexity_quadrant,low_semantic_low_disagreement,TF-IDF + LinearSVC,mcc,std,0.08138951840197356
+common_complexity_quadrant,low_semantic_low_disagreement,DeBERTa-v3-base,mcc,std,0.12991521981819684
+common_complexity_quadrant,low_semantic_low_disagreement,DeepSeek V4 Flash (codebook_guided),mcc,std,0.11953204834290856

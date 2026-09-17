@@ -1,0 +1,12 @@
+﻿outcome,dimension,description,estimate,p_value,ci95_low,ci95_high
+kappa,Label number,Codebook-guided-zero-shot difference: 5 versus 3 labels,-0.056409932508841486,0.004206806523744747,-0.09503775140867315,-0.017782113609009824
+kappa,Label number,Codebook-guided-zero-shot difference: 8 versus 3 labels,-0.050059063721198886,0.015135431543802765,-0.09044977090272002,-0.009668356539677757
+kappa,Annotation disagreement,Difference in annotation disagreement slope: Codebook-guided minus zero-shot,-0.03076453749937228,0.0007804961719154037,-0.048712215292660115,-0.012816859706084448
+kappa,Label semantic similarity,Difference in label semantic similarity slope: Codebook-guided minus zero-shot,-0.04953970135710282,4.5736016273489725e-08,-0.06729963932145962,-0.03177976339274602
+macro_f1,Annotation disagreement,Difference in annotation disagreement slope: Codebook-guided minus zero-shot,-0.01663359411107224,0.019180921114529143,-0.0305538764512366,-0.0027133117709078787
+macro_f1,Label semantic similarity,Difference in label semantic similarity slope: Codebook-guided minus zero-shot,-0.0361545301830739,2.684642142824709e-07,-0.049929200848273195,-0.022379859517874606
+mcc,Label number,Codebook-guided-zero-shot difference: 5 versus 3 labels,-0.05645959588996776,0.0030979863344705503,-0.0938715641926886,-0.019047627587246922
+mcc,Label number,Codebook-guided-zero-shot difference: 8 versus 3 labels,-0.05292841099274288,0.008005765022628052,-0.09204777884310145,-0.013809043142384327
+mcc,Label number,Few-shot-zero-shot difference: 8 versus 3 labels,-0.03939377074812944,0.0484144820949756,-0.07851313859848799,-0.00027440289777089233
+mcc,Annotation disagreement,Difference in annotation disagreement slope: Codebook-guided minus zero-shot,-0.03459165522695501,9.606363426889448e-05,-0.051974411277746636,-0.017208899176163382
+mcc,Label semantic similarity,Difference in label semantic similarity slope: Codebook-guided minus zero-shot,-0.05128314633504345,5.112401734050839e-09,-0.06848407186241516,-0.034082220807671745

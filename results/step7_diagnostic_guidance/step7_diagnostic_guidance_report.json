@@ -1,0 +1,35 @@
+{
+  "analysis_role": "evidence-constrained diagnostic guidance",
+  "input_records": 600,
+  "label_combinations": 40,
+  "prediction_model": "record-stratified gradient boosting for Kappa",
+  "prediction_scope": "interpolation within the observed contract-coding design space",
+  "thresholds": {
+    "high_label_number": 8.0,
+    "high_class_imbalance": 0.27371709301792524,
+    "low_training_sample_size": 500.0,
+    "high_annotation_disagreement": 0.25204860978197374,
+    "high_semantic_similarity": 0.44726412892341616,
+    "target_annotation_disagreement": 0.19354364351907363,
+    "target_semantic_similarity": 0.3790551344731024,
+    "balanced_class_imbalance": 0.0,
+    "practical_near_tie_margin": 0.02
+  },
+  "scenario_rows": 2194,
+  "illustrative_profiles": 3,
+  "rule_count": 8,
+  "evidence_entries": 18,
+  "contribution_stages": 3,
+  "output_checks": {
+    "all_scenario_predictions_finite": true,
+    "all_scenario_predictions_in_metric_range": true,
+    "three_distinct_illustrative_profiles": true,
+    "five_candidate_predictions_per_profile": true,
+    "rulebook_has_boundary_rule": true,
+    "all_rules_have_evidence_basis": true,
+    "chinese_rulebook_has_eight_rules": true,
+    "evidence_ids_are_unique": true,
+    "three_core_contributions_are_mapped": true
+  },
+  "interpretation_boundary": "Scenario differences are model-predicted contrasts and are not causal intervention effects. The record-level predictor does not establish unrestricted generalization to new coding tasks."
+}

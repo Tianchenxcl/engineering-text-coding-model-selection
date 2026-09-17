@@ -1,0 +1,11 @@
+﻿outcome,fit_role,structure,reml,optimizer,converged,log_likelihood,warning,error
+kappa,additive_ml,combination_plus_task,False,lbfgs,True,534.9802881646099,The MLE may be on the boundary of the parameter space.,
+kappa,interaction_ml,combination_plus_task,False,lbfgs,True,584.7553045359264,The MLE may be on the boundary of the parameter space.,
+kappa,interaction_reml,combination_plus_task,True,lbfgs,True,528.1185507657999,The MLE may be on the boundary of the parameter space.,
+macro_f1,additive_ml,combination_plus_task,False,lbfgs,True,490.11712917158,The MLE may be on the boundary of the parameter space.,
+macro_f1,interaction_ml,combination_plus_task,False,lbfgs,True,556.847403330953,The MLE may be on the boundary of the parameter space.,
+macro_f1,interaction_reml,combination_plus_task,True,lbfgs,True,500.08966666509207,The MLE may be on the boundary of the parameter space.,
+mcc,additive_ml,combination_plus_task,False,lbfgs,True,578.450667305764,The MLE may be on the boundary of the parameter space.,
+mcc,interaction_ml,combination_plus_task,False,lbfgs,True,629.263822526091,The MLE may be on the boundary of the parameter space.,
+mcc,interaction_reml,combination_plus_task,True,lbfgs,True,571.4284149357302,The MLE may be on the boundary of the parameter space.,
+kappa,exclude_k11_reml,combination_plus_task,True,lbfgs,True,498.51782910855354,The MLE may be on the boundary of the parameter space.,

@@ -1,0 +1,6 @@
+﻿dataset,feature,vif,r_squared_against_other_features,reference_rows,screening_note
+supervised_task_reference,label_number,1.0852285593540494,0.0785351238865103,240,VIF is a screening diagnostic; categorical label-number effects are modeled as factors later.
+supervised_task_reference,class_imbalance_complexity,1.6715115001426368,0.40173908470586894,240,VIF is a screening diagnostic; categorical label-number effects are modeled as factors later.
+supervised_task_reference,annotation_disagreement_complexity,1.669076044096193,0.4008661237831729,240,VIF is a screening diagnostic; categorical label-number effects are modeled as factors later.
+supervised_task_reference,log2_training_size,1.16922268085866,0.14473092562178613,240,VIF is a screening diagnostic; categorical label-number effects are modeled as factors later.
+supervised_task_reference,semantic_similarity_complexity,1.2079292235744157,0.17213692616784848,240,VIF is a screening diagnostic; categorical label-number effects are modeled as factors later.

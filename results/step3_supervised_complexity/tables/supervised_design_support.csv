@@ -1,0 +1,5 @@
+﻿task_count,combination_count,minimum_training_size,maximum_training_size,label_number,inference_status
+75,8,300,9000,3,replicated_across_combinations
+79,8,300,12000,5,replicated_across_combinations
+74,7,300,15000,8,replicated_across_combinations
+12,1,300,15000,11,exploratory_single_combination

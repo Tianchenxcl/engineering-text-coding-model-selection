@@ -1,0 +1,42 @@
+{
+  "analysis_role": "robustness checks for the three core contributions",
+  "bootstrap_reps": 2000,
+  "robustness_dimensions": [
+    "outcome metric",
+    "validation split",
+    "prediction algorithm",
+    "11-label evaluation condition",
+    "diagnostic threshold",
+    "near-tie routing threshold"
+  ],
+  "full_gbt_metrics": [
+    {
+      "outcome": "kappa",
+      "rmse": 0.08413100480560769,
+      "mae": 0.06381403748911778,
+      "r_squared": 0.7550334669511324
+    },
+    {
+      "outcome": "macro_f1",
+      "rmse": 0.07816286726777909,
+      "mae": 0.059590691166845865,
+      "r_squared": 0.8013551533785965
+    },
+    {
+      "outcome": "mcc",
+      "rmse": 0.08053278913121266,
+      "mae": 0.06051395027815268,
+      "r_squared": 0.7514912948840983
+    }
+  ],
+  "output_checks": {
+    "all_three_outcomes_present": true,
+    "all_four_prediction_algorithms_present": true,
+    "bootstrap_intervals_ordered": true,
+    "three_threshold_percentiles_checked": true,
+    "four_near_tie_thresholds_per_outcome": true,
+    "scenario_predictions_finite": true,
+    "three_core_contributions_summarized": true
+  },
+  "interpretation_boundary": "Robustness checks use existing experiment outputs and fitted meta-predictors. They assess analytical stability, not causal intervention effects or unrestricted cross-domain generalization."
+}

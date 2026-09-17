@@ -1,0 +1,4 @@
+﻿percentile,high_label_number,high_class_imbalance,low_training_sample_size,high_annotation_disagreement,high_semantic_similarity,profiles,profiles_with_any_risk,share_with_any_risk,label_space_flag_count,imbalance_flag_count,small_sample_flag_count,disagreement_flag_count,similarity_flag_count,any_risk_flag_count
+0.7,8.0,0.23112135289865068,500.0,0.24633419342454718,0.44312361672520634,240,228,0.95,86,72,120,40,82,228
+0.75,8.0,0.27371709301792524,500.0,0.25204860978197374,0.44726412892341616,240,227,0.9458333333333333,86,60,120,37,72,227
+0.8,8.0,0.3190333628760558,459.9999999999966,0.2604518970706237,0.4544601255655289,240,198,0.825,86,48,48,31,62,198

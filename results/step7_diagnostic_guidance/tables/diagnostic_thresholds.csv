@@ -1,0 +1,7 @@
+﻿indicator,trigger,threshold,derivation,interpretation
+label_number,>=,8.0,Pre-specified high-complexity level in the 3/5/8/11 design,Large label space
+class_imbalance,>=,0.27371709301792524,75th percentile of supervised model-task records,High class imbalance
+training_sample_size,<=,500.0,25th percentile of supervised model-task records,Limited labeled training data
+annotation_disagreement,>=,0.25204860978197374,75th percentile across the 40 label combinations,High coding disagreement
+semantic_similarity,>=,0.44726412892341616,75th percentile across the 40 label combinations,High semantic overlap between labels
+predicted_model_margin,<,0.02,Pre-specified practical near-tie threshold used in Common24,Candidate models are practically indistinguishable

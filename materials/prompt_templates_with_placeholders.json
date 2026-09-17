@@ -1,0 +1,32 @@
+{
+  "zero_shot": [
+    {
+      "role": "system",
+      "content": "You are an expert coding assistant for knowledge-intensive engineering contract text. Assign exactly one allowed contractual-function label to every item. Return valid JSON only and do not explain your reasoning."
+    },
+    {
+      "role": "user",
+      "content": "Task ID: <TASK_ID>\n\nAllowed labels:\n- 0: Interpretations\n- 1: Task descriptions\n- 2: Communication\n- 3: Positional power\n- 4: Rights entitlement\n- 5: Obligations\n- 6: Penalties\n- 7: Behavior restrictions\n- 8: Adjudication\n- 9: Environmental changes\n- 10: Task changes\n\nRules:\n1. Classify the primary contractual function of each text.\n2. Use only one of the allowed integer label IDs.\n3. Include every input ID exactly once.\n4. Do not add explanations or extra keys.\n\nInput items:\n[\n  {\n    \"id\": \"<ITEM_ID>\",\n    \"text\": \"<PRIVATE_INPUT_TEXT>\"\n  }\n]\n\nRequired JSON schema:\n{\"results\":[{\"id\":\"exact_input_id\",\"prediction\":0}]}\nThe prediction value must be one of: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+    }
+  ],
+  "few_shot": [
+    {
+      "role": "system",
+      "content": "You are an expert coding assistant for knowledge-intensive engineering contract text. Assign exactly one allowed contractual-function label to every item. Return valid JSON only and do not explain your reasoning."
+    },
+    {
+      "role": "user",
+      "content": "Task ID: <TASK_ID>\n\nAllowed labels:\n- 0: Interpretations\n- 1: Task descriptions\n- 2: Communication\n- 3: Positional power\n- 4: Rights entitlement\n- 5: Obligations\n- 6: Penalties\n- 7: Behavior restrictions\n- 8: Adjudication\n- 9: Environmental changes\n- 10: Task changes\n\nFixed labeled demonstrations:\nExample 1\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 0\n\nExample 2\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 1\n\nExample 3\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 2\n\nExample 4\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 3\n\nExample 5\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 4\n\nExample 6\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 5\n\nExample 7\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 6\n\nExample 8\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 7\n\nExample 9\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 8\n\nExample 10\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 9\n\nExample 11\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 10\n\nRules:\n1. Classify the primary contractual function of each text.\n2. Use only one of the allowed integer label IDs.\n3. Include every input ID exactly once.\n4. Do not add explanations or extra keys.\n\nInput items:\n[\n  {\n    \"id\": \"<ITEM_ID>\",\n    \"text\": \"<PRIVATE_INPUT_TEXT>\"\n  }\n]\n\nRequired JSON schema:\n{\"results\":[{\"id\":\"exact_input_id\",\"prediction\":0}]}\nThe prediction value must be one of: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+    }
+  ],
+  "codebook_guided": [
+    {
+      "role": "system",
+      "content": "You are an expert coding assistant for knowledge-intensive engineering contract text. Assign exactly one allowed contractual-function label to every item. Return valid JSON only and do not explain your reasoning."
+    },
+    {
+      "role": "user",
+      "content": "Task ID: <TASK_ID>\n\nAllowed labels:\n- 0: Interpretations\n- 1: Task descriptions\n- 2: Communication\n- 3: Positional power\n- 4: Rights entitlement\n- 5: Obligations\n- 6: Penalties\n- 7: Behavior restrictions\n- 8: Adjudication\n- 9: Environmental changes\n- 10: Task changes\n\nCodebook definitions:\n- 0 (Interpretations): Provisions that clarify the meanings of terms to support a shared understanding between the parties.\n- 1 (Task descriptions): Provisions that describe each party's tasks for completing the work.\n- 2 (Communication): Provisions concerning information exchange and sharing between the parties.\n- 3 (Positional power): Provisions that authorize positional power for a party during the work process.\n- 4 (Rights entitlement): Provisions that endow each party with rights for protecting its assets or interests.\n- 5 (Obligations): Provisions that oblige each party to perform responsibilities and comply with allocated risks, rules, and laws.\n- 6 (Penalties): Provisions concerning compensation, damages, or additional rights arising from another party's failure to perform.\n- 7 (Behavior restrictions): Provisions that constrain a party from performing specified actions.\n- 8 (Adjudication): Provisions concerning the arbitration or adjudication of disputes between the parties.\n- 9 (Environmental changes): Provisions concerning responses to future natural or institutional changes.\n- 10 (Task changes): Provisions concerning future changes to work scope, standards, or sequence.\n\nFixed labeled demonstrations:\nExample 1\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 0\n\nExample 2\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 1\n\nExample 3\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 2\n\nExample 4\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 3\n\nExample 5\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 4\n\nExample 6\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 5\n\nExample 7\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 6\n\nExample 8\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 7\n\nExample 9\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 8\n\nExample 10\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 9\n\nExample 11\nText: <PRIVATE_DEMONSTRATION_TEXT>\nLabel ID: 10\n\nRules:\n1. Classify the primary contractual function of each text.\n2. Use only one of the allowed integer label IDs.\n3. Include every input ID exactly once.\n4. Do not add explanations or extra keys.\n\nInput items:\n[\n  {\n    \"id\": \"<ITEM_ID>\",\n    \"text\": \"<PRIVATE_INPUT_TEXT>\"\n  }\n]\n\nRequired JSON schema:\n{\"results\":[{\"id\":\"exact_input_id\",\"prediction\":0}]}\nThe prediction value must be one of: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+    }
+  ]
+}

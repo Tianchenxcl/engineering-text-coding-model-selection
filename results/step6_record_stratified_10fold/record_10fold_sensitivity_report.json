@@ -1,0 +1,172 @@
+{
+  "generated_at_utc": "2026-07-15T14:03:49+00:00",
+  "analysis_role": "record-level stratified 10-fold sensitivity analysis",
+  "primary_analysis_replacement": false,
+  "record_count": 600,
+  "label_combination_count": 40,
+  "outer_split": "StratifiedKFold(10), stratified by model_variant: 540 training records and 60 test records per fold.",
+  "inner_split": "StratifiedKFold(5) inside each outer training set for hyperparameter selection.",
+  "refit_rule": "After inner selection, refit on all 540 outer-training records and evaluate once on the 60 outer-test records. After evaluation, select parameters with 10-fold CV on all 600 records and fit deployment models on all records.",
+  "stratification_variable": "model_variant",
+  "label_number_not_used_for_stratification_reason": "Some LLM model-variant by 11-label strata contain only one record and cannot support 10 folds.",
+  "kappa_metrics": [
+    {
+      "algorithm": "candidate_mean",
+      "rmse": 0.16752315792303257,
+      "mae": 0.13311338633256825,
+      "r_squared": 0.02872031260545005,
+      "calibration_slope": 0.8368640677929555
+    },
+    {
+      "algorithm": "ridge",
+      "rmse": 0.09985064006822544,
+      "mae": 0.0765237266283977,
+      "r_squared": 0.6549386553744997,
+      "calibration_slope": 1.0036901116854628
+    },
+    {
+      "algorithm": "gradient_boosting",
+      "rmse": 0.08413100480560769,
+      "mae": 0.06381403748911779,
+      "r_squared": 0.7550334669511324,
+      "calibration_slope": 1.117347460558724
+    },
+    {
+      "algorithm": "mlp",
+      "rmse": 0.11300080358974543,
+      "mae": 0.08584881234595745,
+      "r_squared": 0.5580657427961291,
+      "calibration_slope": 0.8875407948543088
+    }
+  ],
+  "mean_test_record_share_with_combination_seen_in_training": 1.0,
+  "grouped_vs_record_split": [
+    {
+      "outcome": "kappa",
+      "algorithm": "candidate_mean",
+      "record_stratified_rmse": 0.16752315792303257,
+      "record_stratified_r_squared": 0.02872031260545005,
+      "grouped_rmse": 0.1694023801909957,
+      "grouped_r_squared": 0.0068070680938927,
+      "rmse_reduction_from_record_split": 0.0018792222679631376,
+      "r_squared_increase_from_record_split": 0.02191324451155735
+    },
+    {
+      "outcome": "kappa",
+      "algorithm": "ridge",
+      "record_stratified_rmse": 0.09985064006822544,
+      "record_stratified_r_squared": 0.6549386553744997,
+      "grouped_rmse": 0.1104135829950474,
+      "grouped_r_squared": 0.578070772444843,
+      "rmse_reduction_from_record_split": 0.010562942926821958,
+      "r_squared_increase_from_record_split": 0.07686788292965674
+    },
+    {
+      "outcome": "kappa",
+      "algorithm": "gradient_boosting",
+      "record_stratified_rmse": 0.08413100480560769,
+      "record_stratified_r_squared": 0.7550334669511324,
+      "grouped_rmse": 0.1263574408963143,
+      "grouped_r_squared": 0.4474186192896625,
+      "rmse_reduction_from_record_split": 0.0422264360907066,
+      "r_squared_increase_from_record_split": 0.3076148476614699
+    },
+    {
+      "outcome": "kappa",
+      "algorithm": "mlp",
+      "record_stratified_rmse": 0.11300080358974543,
+      "record_stratified_r_squared": 0.5580657427961291,
+      "grouped_rmse": 0.1480289397575544,
+      "grouped_r_squared": 0.2416182714428523,
+      "rmse_reduction_from_record_split": 0.035028136167808976,
+      "r_squared_increase_from_record_split": 0.3164474713532768
+    },
+    {
+      "outcome": "macro_f1",
+      "algorithm": "candidate_mean",
+      "record_stratified_rmse": 0.17439334091108005,
+      "record_stratified_r_squared": 0.011136986016812567,
+      "grouped_rmse": 0.1776168606359471,
+      "grouped_r_squared": -0.0257575386968442,
+      "rmse_reduction_from_record_split": 0.0032235197248670355,
+      "r_squared_increase_from_record_split": 0.03689452471365677
+    },
+    {
+      "outcome": "macro_f1",
+      "algorithm": "ridge",
+      "record_stratified_rmse": 0.09296828087636279,
+      "record_stratified_r_squared": 0.7189743644531787,
+      "grouped_rmse": 0.1006625730460022,
+      "grouped_r_squared": 0.6705326425348603,
+      "rmse_reduction_from_record_split": 0.007694292169639405,
+      "r_squared_increase_from_record_split": 0.048441721918318414
+    },
+    {
+      "outcome": "macro_f1",
+      "algorithm": "gradient_boosting",
+      "record_stratified_rmse": 0.07816286726777909,
+      "record_stratified_r_squared": 0.8013551533785965,
+      "grouped_rmse": 0.1126356393623396,
+      "grouped_r_squared": 0.5874961604054392,
+      "rmse_reduction_from_record_split": 0.03447277209456051,
+      "r_squared_increase_from_record_split": 0.21385899297315736
+    },
+    {
+      "outcome": "macro_f1",
+      "algorithm": "mlp",
+      "record_stratified_rmse": 0.10660873198112127,
+      "record_stratified_r_squared": 0.630459626218052,
+      "grouped_rmse": 0.1202133663703857,
+      "grouped_r_squared": 0.5301255221548227,
+      "rmse_reduction_from_record_split": 0.01360463438926443,
+      "r_squared_increase_from_record_split": 0.10033410406322929
+    },
+    {
+      "outcome": "mcc",
+      "algorithm": "candidate_mean",
+      "record_stratified_rmse": 0.15904621910876773,
+      "record_stratified_r_squared": 0.0307343449070131,
+      "grouped_rmse": 0.1609497380975066,
+      "grouped_r_squared": 0.0073945072735595,
+      "rmse_reduction_from_record_split": 0.0019035189887388615,
+      "r_squared_increase_from_record_split": 0.0233398376334536
+    },
+    {
+      "outcome": "mcc",
+      "algorithm": "ridge",
+      "record_stratified_rmse": 0.0958544389605154,
+      "record_stratified_r_squared": 0.6479368384613357,
+      "grouped_rmse": 0.1056370335253438,
+      "grouped_r_squared": 0.5724090356294829,
+      "rmse_reduction_from_record_split": 0.009782594564828398,
+      "r_squared_increase_from_record_split": 0.07552780283185279
+    },
+    {
+      "outcome": "mcc",
+      "algorithm": "gradient_boosting",
+      "record_stratified_rmse": 0.08053278913121266,
+      "record_stratified_r_squared": 0.7514912948840983,
+      "grouped_rmse": 0.1251101126035472,
+      "grouped_r_squared": 0.4002352250995895,
+      "rmse_reduction_from_record_split": 0.04457732347233455,
+      "r_squared_increase_from_record_split": 0.3512560697845088
+    },
+    {
+      "outcome": "mcc",
+      "algorithm": "mlp",
+      "record_stratified_rmse": 0.1096419259173709,
+      "record_stratified_r_squared": 0.5393729515696666,
+      "grouped_rmse": 0.1199631257670397,
+      "grouped_r_squared": 0.4485683720207933,
+      "rmse_reduction_from_record_split": 0.010321199849668797,
+      "r_squared_increase_from_record_split": 0.09080457954887328
+    }
+  ],
+  "output_checks": {
+    "all_outer_folds_have_540_train_60_test": true,
+    "all_records_have_one_oof_prediction_per_algorithm_outcome": true,
+    "all_predictions_finite": true,
+    "nine_final_model_bundles": true
+  },
+  "interpretation_warning": "Because records from the same label combination occur in both training and test folds, these estimates measure interpolation to new configurations of largely known label combinations. They should not be reported as generalization to a new coding task or new label system."
+}

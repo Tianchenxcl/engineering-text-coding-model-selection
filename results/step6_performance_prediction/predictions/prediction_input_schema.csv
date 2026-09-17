@@ -1,0 +1,8 @@
+﻿column,type,definition
+new_task_id,string,User-defined task/configuration identifier
+model_variant,category,"One of: SVM, DeBERTa, LLM_zero_shot, LLM_few_shot, LLM_codebook_guided"
+label_number,integer,Number of candidate labels
+class_imbalance,numeric,Training-set imbalance index; blank for LLM
+annotation_disagreement,numeric,Task annotation-disagreement rate
+training_sample_size,integer,Supervised training examples; blank for LLM
+semantic_similarity,numeric,Average pairwise label semantic similarity

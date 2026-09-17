@@ -1,0 +1,17 @@
+{
+  "method": "Fractional-logit GLM with label-combination cluster-robust standard errors",
+  "response": "(Kappa + 1) / 2, clipped to [1e-6, 1-1e-6]",
+  "formula": "kappa_fraction ~ C(model_code, Treatment(reference='SVM')) * (C(label_number_factor, Treatment(reference='3')) + class_imbalance_z + annotation_disagreement_z + log2_training_size_z + semantic_similarity_z)",
+  "record_count": 480,
+  "combination_count": 24,
+  "coefficient_direction_matches": 14,
+  "coefficient_direction_total": 15,
+  "direction_agreement_rate": 0.9333333333333333,
+  "bounded_prediction_minimum": 0.5445146368969817,
+  "bounded_prediction_maximum": 0.9476781561120182,
+  "notes": [
+    "This is an outcome-distribution robustness check based on existing model outputs.",
+    "Cluster-robust inference uses 24 label combinations and should be interpreted cautiously.",
+    "Coefficient magnitudes are on the fractional-logit scale and are not directly comparable with linear mixed-model coefficients."
+  ]
+}

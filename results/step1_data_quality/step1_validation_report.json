@@ -1,0 +1,48 @@
+{
+  "generated_at_utc": "2026-07-15T09:48:20+00:00",
+  "input_dir": "[workspace]\\7.13 code",
+  "package_root": "[workspace]\\7.13 code\\hy_tmp_experiment_package",
+  "output_dir": "[workspace]\\7.13 code\\statistical_analysis\\step1_data_quality",
+  "input_rows": {
+    "supervised": 480,
+    "llm": 360,
+    "common24": 264,
+    "all_runs": 840
+  },
+  "analysis_ready_rows": {
+    "supervised": 480,
+    "llm": 360,
+    "supervised_pairs": 240,
+    "llm_prompt_means": 120,
+    "common24_primary": 72,
+    "common24_all_strategies": 120
+  },
+  "quality_check_counts": {
+    "PASS": 56
+  },
+  "failed_checks": [],
+  "deep_test_check_summary": {
+    "available": true,
+    "fixed_test_combinations": 24,
+    "fixed_test_failures": 0,
+    "common24_alignments": 24,
+    "common24_alignment_failures": 0,
+    "weighted_normalized_text_exact_share": 0.9957031895554453,
+    "weighted_mean_text_similarity": 0.9998968460356975
+  },
+  "analysis_rules": {
+    "primary_outcome": "kappa",
+    "robustness_outcomes": [
+      "macro_f1",
+      "mcc"
+    ],
+    "label_number_encoding": "categorical factor",
+    "training_size_transformation": "log2 then z-standardized on unique supervised tasks",
+    "continuous_standardization": "population SD (ddof=0) on unique task or combination reference units",
+    "llm_nonapplicable_dimensions": [
+      "training_size",
+      "training_class_imbalance"
+    ],
+    "common24_primary_llm_strategy": "codebook_guided averaged over three repeats"
+  }
+}

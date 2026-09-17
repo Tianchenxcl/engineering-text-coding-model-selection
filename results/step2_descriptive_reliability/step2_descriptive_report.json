@@ -1,0 +1,40 @@
+{
+  "generated_at_utc": "2026-07-15T10:55:10+00:00",
+  "input_dir": "[workspace]\\7.13 code\\statistical_analysis\\step1_data_quality",
+  "output_dir": "[workspace]\\7.13 code\\statistical_analysis\\step2_descriptive_reliability",
+  "bootstrap_repetitions": 2000,
+  "bootstrap_cluster": "label combination",
+  "figure_status": "rendered",
+  "table_count": 15,
+  "figure_count": 4,
+  "descriptive_findings": {
+    "overall_mean_kappa": {
+      "SVM": 0.5309004983532282,
+      "DeBERTa": 0.5372490617015548,
+      "LLM codebook": 0.5177688111616436,
+      "LLM few-shot": 0.45523457780777193,
+      "LLM zero-shot": 0.41286228981561257
+    },
+    "common24_mean_kappa": {
+      "SVM": 0.6721448602259331,
+      "DeBERTa": 0.7061543915592386,
+      "LLM codebook": 0.5029438446207436
+    },
+    "llm_mean_prompt_differences": {
+      "codebook_minus_zero": 0.104906521346031,
+      "few_minus_zero": 0.042372287992159474,
+      "codebook_minus_few": 0.06253423335387154
+    }
+  },
+  "output_checks": {
+    "supervised_analysis_units": 480,
+    "supervised_matched_task_pairs": 240,
+    "llm_combination_prompt_units": 120,
+    "common24_primary_units": 72,
+    "overall_missing_metric_cells": 0,
+    "overall_candidate_count": 5,
+    "common24_candidate_count": 3
+  },
+  "interpretation_boundary": "These are descriptive distributions and cluster-bootstrap intervals. Statistical interaction claims require the mixed-effects models in Step 3.",
+  "comparison_boundary": "Overall candidate distributions come from each candidate's available task set. Use the matched Common24 results for direct cross-family comparisons."
+}

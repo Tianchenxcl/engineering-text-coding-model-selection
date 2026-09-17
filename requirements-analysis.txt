@@ -1,0 +1,9 @@
+numpy==2.5.1
+pandas==3.0.5
+scipy==1.18.0
+scikit-learn==1.8.0
+statsmodels==0.14.6
+patsy==1.0.2
+matplotlib==3.11.1
+joblib==1.5.3
+openpyxl==3.1.5

@@ -1,0 +1,14 @@
+﻿label_number,complexity_quadrant,unique_combination_count
+3,high_semantic_high_disagreement,2
+3,high_semantic_low_disagreement,4
+3,low_semantic_high_disagreement,3
+3,low_semantic_low_disagreement,3
+5,high_semantic_high_disagreement,3
+5,high_semantic_low_disagreement,4
+5,low_semantic_high_disagreement,6
+5,low_semantic_low_disagreement,2
+8,high_semantic_high_disagreement,3
+8,high_semantic_low_disagreement,3
+8,low_semantic_high_disagreement,4
+8,low_semantic_low_disagreement,2
+11,high_semantic_high_disagreement,1

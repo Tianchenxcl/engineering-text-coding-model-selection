@@ -1,6 +1,6 @@
 # Data dictionary and analysis units
 
-## Complexity dimensions
+## Task characteristics
 
 | Manuscript term | Principal machine-readable fields | Interpretation |
 |---|---|---|
@@ -10,7 +10,7 @@
 | Label semantic similarity | `semantic_similarity`, `avg_pairwise_semantic_similarity`, `semantic_similarity_complexity` | Mean pairwise label similarity from the supplied matrix |
 | Human coding disagreement rate | `annotation_disagreement`, `sampled_annotation_disagreement_rate`, `annotation_disagreement_rate`, `annotation_disagreement_complexity` | Human disagreement measure for the relevant task; supervised sampled and LLM combination aggregates retain their original definitions |
 
-Machine-readable field names are preserved for compatibility. The words “annotation disagreement” and “human coding disagreement” refer to the manuscript dimension, but weighted/sampled and unweighted combination aggregates must not be treated as interchangeable. Missing LLM training-size/class-imbalance values mean “not applicable”, not zero. Predictor-specific filled variables are constructed by code.
+Machine-readable field names, including those containing `complexity`, are preserved for compatibility with the original analyses and saved predictors. The five indicators are collectively termed task characteristics in the current manuscript. The words “annotation disagreement” and “human coding disagreement” refer to the same task characteristic, but weighted/sampled and unweighted combination aggregates must not be treated as interchangeable. Missing LLM training-size/class-imbalance values mean “not applicable”, not zero. Predictor-specific filled variables are constructed by code.
 
 ## Identifiers and units
 

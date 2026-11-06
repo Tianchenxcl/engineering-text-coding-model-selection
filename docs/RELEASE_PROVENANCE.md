@@ -2,6 +2,10 @@
 
 We assembled this repository from the final 240-task experiment workflow, the archived statistical analyses and the final manuscript figures. The analysis units and validation splits are described in the main README and data dictionary.
 
+## Manuscript terminology update
+
+The documentation now follows the manuscript title, “A decision support framework for model selection in automated engineering text coding”, and describes the five indicators as task characteristics. This wording update preserves the experimental code, task-level records, statistical results, fitted predictors and figure files. Historical filenames and field names containing `complexity` remain available for reproduction. `SHA256SUMS.csv` is refreshed for the edited documentation; the original source-to-release mapping in `SOURCE_MANIFEST.csv` is retained.
+
 ## Relationship to the original implementation
 
 The training and statistical scripts retain the original model settings, sampling rules and numerical calculations. We adapted filesystem locations for the repository layout and separated private manual adjudications from the preprocessing code. The original 101 tie decisions must be supplied as a private input when rerunning corpus preparation; no substitute labels are provided.

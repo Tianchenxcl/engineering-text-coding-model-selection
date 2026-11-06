@@ -1,12 +1,10 @@
-# Task complexity and model-task fit for reliable automated engineering text coding
+# A decision support framework for model selection in automated engineering text coding
 
-This repository accompanies our manuscript:
+This repository accompanies the manuscript of the same title.
 
-> **Task complexity and model task fit for reliable automated engineering text coding: A framework validated through construction contract function coding**
+The decision support framework connects task characterization, coding reliability prediction and improvement priorities to guide model selection and annotation investment before full model development. It characterizes tasks using five measurable attributes: **label number, class imbalance, training sample size, label semantic similarity, and human coding disagreement rate**. Its effectiveness is empirically validated through construction contract function coding using 17,778 deduplicated contract sentences.
 
-We examine how task conditions affect the reliability of automated engineering text coding and how these conditions can support model selection before full development. Our framework represents task complexity through five dimensions: **label number, class imbalance, training sample size, label semantic similarity, and human coding disagreement rate**. We use construction contract function coding as a controlled validation case.
-
-We provide the study code, task-level results, statistical analyses, fitted performance predictors and figure source data. The repository is organized so that readers can inspect the evidence, verify the reported results and rerun the analyses from the released records.
+The released materials include the study code, task-level results, statistical analyses, fitted performance predictors and figure source data. The repository is organized so that readers can inspect the evidence, verify the reported results and rerun the analyses from the released records.
 
 ## Start here
 
@@ -14,7 +12,7 @@ We provide the study code, task-level results, statistical analyses, fitted perf
 |---|---|
 | Understand the study and find the files behind each result | [Method-to-file map](docs/METHOD_FILE_MAP.md) |
 | Inspect the 600 model–task records used for performance prediction | [Prediction dataset](results/step6_performance_prediction/diagnostics/prediction_unified_analysis_data.csv) |
-| Understand the five dimensions and analysis units | [Data dictionary](docs/DATA_DICTIONARY.md) |
+| Understand the five task characteristics and analysis units | [Data dictionary](docs/DATA_DICTIONARY.md) |
 | Verify record counts and the two principal prediction RMSEs | `python reproduce.py --steps verify` |
 | Reproduce statistical analyses | [Analysis instructions](#reproduce-the-analyses) |
 | Inspect or redraw the six manuscript figures | [Figure index](figures/README.md) |
@@ -34,7 +32,15 @@ We provide the study code, task-level results, statistical analyses, fitted perf
 | Combined model–task records for performance prediction | 600 |
 | Label combinations used for the matched Common24 comparison | 24 |
 
-The three prompting strategies are zero-shot, few-shot and codebook-guided coding. The prediction dataset combines 480 supervised-model records with 120 LLM means; the repeated LLM calls are not treated as separate prediction tasks.
+The experiments compare SVM, DeBERTa-v3-base and DeepSeek V4-Flash. The three LLM prompting strategies are zero-shot, few-shot and codebook-guided coding. The prediction dataset combines 480 supervised-model records with 120 LLM means; the repeated LLM calls are not treated as separate prediction tasks.
+
+## Main findings
+
+- Supervised-model reliability decreases with more labels, greater class imbalance and higher label semantic similarity, but improves with training sample size. Label number and training sample size change the relative performance of SVM and DeBERTa-v3-base.
+- For DeepSeek V4-Flash, codebook-guided prompting achieves an adjusted Kappa of 0.518, compared with 0.455 for few-shot and 0.413 for zero-shot prompting. Its advantage over few-shot prompting diminishes as human coding disagreement rate and label semantic similarity increase.
+- Predictors trained on 600 model–task records estimate candidate configurations' coding reliability from task characteristics and model configuration. Gradient boosting trees achieve a Kappa prediction RMSE of 0.084 in record-level cross-validation; ridge regression achieves 0.110 when entire label combinations are held out. These values measure errors in predicting coding reliability, rather than the coding reliability scores themselves.
+
+The estimated relationships inform priorities for data expansion, class balancing, task decomposition, codebook revision and human review.
 
 ## Repository structure
 
@@ -58,7 +64,7 @@ SHA256SUMS.csv                 File integrity checks
 SOURCE_MANIFEST.csv           Source-to-release file mapping
 ```
 
-The internal column names are retained for compatibility with the original analyses. [DATA_DICTIONARY.md](docs/DATA_DICTIONARY.md) maps them to the standardized manuscript terminology.
+Historical code paths, filenames and machine-readable fields containing `complexity` are retained for compatibility with the original analyses. In the current manuscript, the five indicators are collectively described as **task characteristics**. [DATA_DICTIONARY.md](docs/DATA_DICTIONARY.md) maps the retained fields to this terminology.
 
 ## Verify the released results
 
@@ -70,11 +76,11 @@ cd engineering-text-coding-task-complexity
 python reproduce.py --steps verify
 ```
 
-This command uses only the Python standard library. It checks file integrity, Python syntax, task counts, unique prediction records and the grouping of held-out label combinations. It also recalculates the following Kappa prediction errors from saved out-of-fold predictions:
+This command uses only the Python standard library. It checks file integrity, Python syntax, task counts, unique prediction records and the grouping of held-out label combinations. It also recalculates the following root mean square errors (RMSEs) for predicting coding reliability, measured by Kappa, from saved out-of-fold predictions:
 
 | Validation design | Predictor | RMSE |
 |---|---|---:|
-| Record-stratified validation | Gradient boosting | 0.084131 |
+| Record-level stratified validation | Gradient boosting trees | 0.084131 |
 | Label-combination-held-out validation | Ridge regression | 0.110414 |
 
 These validation designs address different prediction settings. Record-stratified validation measures interpolation within the observed task space, where label combinations appear in both training and test folds. Grouped validation holds out entire label combinations and provides the more conservative assessment for unseen combinations.
@@ -99,8 +105,8 @@ Run individual stages as needed:
 |---|---|---|
 | Data preparation and quality checks | `python reproduce.py --steps 1` | Analysis-ready task records |
 | Descriptive reliability analysis | `python reproduce.py --steps 2` | Reliability summaries and bootstrap intervals |
-| Supervised complexity effects | `python reproduce.py --steps 3` | Mixed-effects models and adjusted predictions |
-| LLM prompting and complexity | `python reproduce.py --steps 4` | Prompt comparisons and interactions |
+| Effects of task characteristics on supervised models | `python reproduce.py --steps 3` | Mixed-effects models and adjusted predictions |
+| LLM prompting and task characteristics | `python reproduce.py --steps 4` | Prompt comparisons and interactions |
 | Matched Common24 comparison | `python reproduce.py --steps 5` | Comparisons on matched label combinations |
 | Grouped performance prediction | `python reproduce.py --steps 6-grouped` | Validation on unseen label combinations |
 | Record-stratified prediction | `python reproduce.py --steps 6-record` | Validation within the observed task space |
@@ -141,7 +147,7 @@ An example input file contains five hypothetical candidate configurations. To ap
 python code/predict_new_task_performance.py --input results/step6_performance_prediction/predictions/prediction_input_template.csv --models-dir results/step6_performance_prediction/models --output reproduced/new_task_predictions.csv
 ```
 
-The saved recommendation selects ridge regression. The output estimates Kappa, Macro-F1 and MCC from task conditions and model configuration. These are task-performance predictors, not models for classifying individual contract sentences. Predictions should be interpreted within the observed complexity range; transfer to a new engineering-text domain requires validation and calibration.
+The saved recommendation selects ridge regression. The output estimates candidate configurations' coding reliability, measured by Kappa, Macro-F1 and MCC, from task characteristics and model configuration. These task-performance predictors support model selection before full model development; sentence coding is performed by the candidate models. Predictions should be interpreted within the observed ranges of task characteristics; application to a new engineering-text domain requires validation and calibration.
 
 ## Figures
 

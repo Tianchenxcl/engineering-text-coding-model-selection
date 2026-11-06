@@ -71,8 +71,8 @@ Historical code paths, filenames and machine-readable fields containing `complex
 Clone the repository and run the lightweight verification:
 
 ```sh
-git clone https://github.com/Tianchenxcl/engineering-text-coding-task-complexity.git
-cd engineering-text-coding-task-complexity
+git clone https://github.com/Tianchenxcl/engineering-text-coding-model-selection.git
+cd engineering-text-coding-model-selection
 python reproduce.py --steps verify
 ```
 
